@@ -52,26 +52,26 @@ To fetch Pokémon data from this project for use in your own applications, you c
 
 The API returns an array of Pokémon objects. Each object contains an `id` and an array of `forms`.
 
-    ```json
-    [
+```
+[
+  {
+    "id": 1,
+    "forms": [
       {
-        "id": 1,
-        "forms": [
-          {
-            "name": "Bulbasaur",
-            "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/1.glb",
-            "formName": "regular"
-          },
-          {
-            "name": "Shiny Bulbasaur",
-            "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1.glb",
-            "formName": "shiny"
-          }
-        ]
+        "name": "Bulbasaur",
+        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/1.glb",
+        "formName": "regular"
       },
-      // ... more Pokémon objects
+      {
+        "name": "Shiny Bulbasaur",
+        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1.glb",
+        "formName": "shiny"
+      }
     ]
-    ```
+  },
+  // ... more Pokémon objects
+]
+```
 
 ### API Endpoint
 The Pokémon data is exposed as a JSON API. You can access it using the following URL:
