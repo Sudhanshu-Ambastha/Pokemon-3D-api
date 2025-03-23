@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <title>Pokedex</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .nav-links {
+            margin-top: 10px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 15px;
+            margin: 0 10px;
+            border-radius: 4px;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .nav-links a.active {
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .container {
+            padding: 1rem;
+        }
+
+        .pokedex {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+
+        .pokemon-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .pokemon-card model-viewer {
+            width: 100%;
+            height: 300px;
+        }
+
+        .pokemon-card h2 {
+            margin: 1rem 0 0;
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .pokemon-card .pokemon-id {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        #modelModal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-top: 60px;
+        }
+
+        #modalContent {
+            background-color: white;
+            margin: 5% auto;
+            padding: 20px;
+            width: 80%;
+            border-radius: 10px;
+        }
+
+        .close {
+            color: #aaa;
+            font-size: 30px;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+        }
+
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .search-bar select,
+        .search-bar input,
+        .search-bar button {
+            padding: 0.5rem;
+            margin-left: 0.5rem;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        .search-bar select {
+            border: 1px solid #ddd;
+        }
+
+        .search-bar input {
+            width: 60%;
+            width: 60%;
+            border: 1px solid #ddd;
+        }
+
+        .search-bar button {
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        .search-bar button:hover {
+            background-color: #45a049;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                font-size: 14px;
+            }
+
+            header {
+                padding: 0.8rem;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+
+            .pokedex {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 1rem;
+            }
+
+            .pokemon-card {
+                padding: 0.5rem;
+            }
+
+            .pokemon-card h2 {
+                font-size: 1rem;
+                margin: 0.5rem 0;
+            }
+
+            .pokemon-card .pokemon-id {
+                font-size: 0.9rem;
+            }
+
+            .pokemon-card model-viewer {
+                height: 200px;
+            }
+
+            .search-bar {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+
+            .search-bar select,
+            .search-bar input,
+            .search-bar button {
+                width: 100%;
+                font-size: 0.9rem;
+                margin-left: 0;
+            }
+
+            .search-bar input {
+                padding: 0.4rem;
+            }
+
+            .search-bar button {
+                padding: 0.5rem;
+            }
+
+            #modalContent {
+                margin: 10% auto;
+                width: 90%;
+                padding: 1rem;
+            }
+
+            #modelViewerModal {
+                height: 250px;
+            }
+
+            .close {
+                font-size: 25px;
+                top: 5px;
+                right: 10px;
+            }
+        }
+ 
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pokémon 3D Non-Optimized Model Viewer</h1>
+        <div class="nav-links">
+            <a href="#" class="active">Non-Optimized</a>
+            <a href="./pokemon/opt.html">Optimized</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="search-bar">
+            <select id="formFilter">
+                <option value="regular">Regular</option>
+                <option value="alolan">Alolan</option>
+                <option value="galar">Galarian</option>
+                <option value="hisuian">Hisuian</option>
+                <option value="mega">Mega</option>
+                <option value="gmax">G-Max</option>
+                <option value="xy">Mega X/Y</option>
+                <option value="unique">Unique</option>
+                <option value="shiny">Shiny</option>
+                <option value="primal">Primal</option>
+                <option value="origin">Origin</option>
+                <option value="multiform">Multi Form</option>
+                <option value="all">All Forms</option>
+            </select>
+            <select id="generationFilter">
+                <option value="1">Gen 1</option>
+                <option value="2">Gen 2</option>
+                <option value="3">Gen 3</option>
+                <option value="4">Gen 4</option>
+                <option value="5">Gen 5</option>
+                <option value="6">Gen 6</option>
+                <option value="7">Gen 7</option>
+                <option value="8">Gen 8</option>
+                <option value="9">Gen 9</option>
+                <option value="all">All Generations</option>
+            </select>
+            <input type="text" id="searchInput" placeholder="Search Pokémon by Name or ID">
+            <button id="searchButton">🔍Search</button>
+        </div>
+        <div id="pokedex" class="pokedex"></div>
+    </div>
+
+    <div id="modelModal">
+        <div id="modalContent">
+            <span class="close" onclick="closeModal()">❌</span>
+            <model-viewer id="modelViewerModal" camera-controls auto-rotate ar autoplay alt="Animated Pokémon Model" environment-image="neutral" style="width: 100%; height: 300px;"></model-viewer>
+        </div>
+    </div>
+
+    <script>
+        let allPokemon = [];
+
+        const generationRanges = {
+            1: [1, 151],
+            2: [152, 251],
+            3: [252, 386],
+            4: [387, 493],
+            5: [494, 649],
+            6: [650, 721],
+            7: [722, 809],
+            8: [810, 905],
+            9: [906, 1025]
+        };
+
+        function fetchPokemonData() {
+            fetch('./models/Merged.json') 
+                .then(res => res.json())
+                .then(data => {
+                    allPokemon = data.pokemon; 
+                    filterAndRenderPokemon();
+                })
+                .catch(error => console.error('Error loading data:', error));
+        }
+
+        function filterAndRenderPokemon() {
+            const genFilter = document.getElementById('generationFilter').value;
+            const searchInput = document.getElementById('searchInput').value.toLowerCase();
+            const formFilter = document.getElementById('formFilter').value;
+
+            let filteredPokemon = allPokemon;
+
+            if (genFilter !== 'all') {
+                const [start, end] = generationRanges[genFilter];
+                filteredPokemon = filteredPokemon.filter(pokemon => pokemon.id >= start && pokemon.id <= end);
+            }
+
+            if (searchInput) {
+                filteredPokemon = filteredPokemon.filter(pokemon =>
+                    pokemon.forms.some(form => form.name.toLowerCase().includes(searchInput)) || pokemon.id.toString().includes(searchInput)
+                );
+            }
+
+            if (formFilter !== 'all') {
+                filteredPokemon = filteredPokemon.map(pokemon => {
+                    return {
+                        ...pokemon,
+                        forms: pokemon.forms.filter(form => form.formName === formFilter)
+                    };
+                }).filter(pokemon => pokemon.forms.length > 0)
+            }
+
+            filteredPokemon = filteredPokemon.flatMap(pokemon => pokemon.forms.map(form => ({...form, id: pokemon.id})))
+
+            renderPokedex(filteredPokemon);
+        }
+
+        function renderPokedex(pokemonList) {
+            const pokedex = document.getElementById('pokedex');
+            pokedex.innerHTML = '';
+
+            pokemonList.forEach(pokemon => {
+                const card = document.createElement('div');
+                card.classList.add('pokemon-card');
+
+                const modelViewer = document.createElement('model-viewer');
+                modelViewer.setAttribute('camera-controls', '');
+                modelViewer.setAttribute('auto-rotate', '');
+                modelViewer.setAttribute('autoplay', '');
+                modelViewer.setAttribute('environment-image', 'neutral');
+                modelViewer.setAttribute('alt', `Model of ${pokemon.name}`);
+                modelViewer.setAttribute('src', pokemon.model);
+                card.appendChild(modelViewer);
+
+                const id = document.createElement('div');
+                id.classList.add('pokemon-id');
+                id.textContent = `ID: ${pokemon.id}`;
+                card.appendChild(id);
+
+                const name = document.createElement('h2');
+                name.textContent = pokemon.name;
+                card.appendChild(name);
+
+                card.addEventListener('click', () => openModal(pokemon.model));
+                pokedex.appendChild(card);
+            });
+        }
+
+        function openModal(modelSrc) {
+            const modal = document.getElementById('modelModal');
+            const modelViewer = document.getElementById('modelViewerModal');
+            modelViewer.setAttribute('src', modelSrc);
+            modal.style.display = 'block';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('modelModal');
+            modal.style.display = 'none';
+        }
+
+        document.getElementById('formFilter').addEventListener('change', filterAndRenderPokemon);
+        document.getElementById('generationFilter').addEventListener('change', filterAndRenderPokemon);
+        document.getElementById('searchInput').addEventListener('input', filterAndRenderPokemon);
+        document.getElementById('searchButton').addEventListener('click', filterAndRenderPokemon);
+
+        fetchPokemonData();
+    </script>
+</body>
+</html>
