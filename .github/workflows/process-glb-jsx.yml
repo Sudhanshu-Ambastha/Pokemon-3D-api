@@ -1,0 +1,60 @@
+name: Process GLB & JSX Files
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  process-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install glTF-Transform CLI
+        run: npm install --global @gltf-transform/cli
+
+      - name: Create Logs Directory
+        run: mkdir -p logs
+
+      - name: Detect Missing JSX Files
+        run: bash scripts/detect_missing.sh
+
+      - name: Optimize GLB Models
+        run: bash scripts/optimize_models.sh
+
+      # - name: Convert GLB Files to JSX
+      #   run: bash scripts/convert.sh
+
+      # - name: Update JSX Files
+      #   run: bash scripts/update_jsx.sh ${{ github.repository }} main
+
+      # - name: Handle Conversion Errors
+      #   run: bash scripts/handle_errors.sh
+
+      - name: Cleanup Orphaned JSX Files
+        run: bash scripts/cleanup_orphan_jsx.sh
+
+      - name: Setup Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.12" # Specify Python 3.12
+
+      # - name: Combine JSON Files
+      #   run: python scripts/merge_json.py
+
+      - name: Commit and Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          bash scripts/commit_push.sh
