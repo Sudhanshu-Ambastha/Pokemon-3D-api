@@ -26,13 +26,13 @@ Welcome to the **Pokémon 3D Model Viewer**! Explore a vast collection of Pokém
   - [Converting .glb Models to JSX Components](#converting-glb-models-to-jsx-components)
     - [Steps to Convert `.glb` to `.jsx`](#steps-to-convert-glb-to-jsx)
   - [Pokémon Categories and Counts](#pokémon-categories-and-counts)
+  - [| **Origin Forms** | 3 | 3 | Origin Forms represent the true or primal state of certain legendary Pokémon, showcasing their full power and unique design. i.e  Giratina, and Dialga/Palkia.          |](#-origin-forms--3--3--origin-forms-represent-the-true-or-primal-state-of-certain-legendary-pokémon-showcasing-their-full-power-and-unique-design-ie--giratina-and-dialgapalkia----------)
   - [Note About APIs](#note-about-apis)
   - [Check Model Animations](#check-model-animations)
   - [Credits](#credits)
   - [License](#license)
   - [Legal Notice](#legal-notice)
     - [The Pokémon3D project community](#the-pokémon3d-project-community)
-  - [Contributors](#contributors)
 
 ---
 
@@ -246,8 +246,3 @@ For more information about the legal considerations related to this project, ple
 Join our Discord: [![Join us on Discord](https://img.shields.io/discord/mycoolserver?label=Join%20us%20on%20Discord&logo=discord&style=social)](https://discord.gg/4JptVPw8qn)
 
 <h1 align="center">Don't just clone 🤖 it, also star 🌟 it!</h1>
-
-## Contributors
-<a href = "https://github.com/Sudhanshu-Ambastha/Pokemon-3D/contributors">
-  <img src = "https://contrib.rocks/image?repo=Sudhanshu-Ambastha/Pokemon-3D"/>
-</a>
