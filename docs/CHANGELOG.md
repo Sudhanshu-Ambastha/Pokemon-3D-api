@@ -1,5 +1,35 @@
 # Changelog
 
+# Version 1.0.1 (2025-03-23)
+
+**Summary:** This patch release addresses a critical operational issue involving the deletion and recreation of the repository, followed by a backend restart. It restores the API's functionality to its state in v1.0.0.
+
+**Key Changes:**
+
+* **Repository Restoration:**
+    * The repository was deleted and recreated due to unforeseen errors.
+* **Backend Restart:**
+    * The backend services have been restarted to ensure API functionality.
+* **Functional Restoration:**
+    * The API now operates as it did in version 1.0.0.
+
+**Note:**
+
+* This release does *not* introduce any new features or changes to the API's structure or data.
+* All functionality and data remain identical to version 1.0.0.
+* Please refer to the 1.0.0 release notes for information on the api's functionality.
+
+**Impact:**
+
+* Users who experienced API downtime due to the repository issue should find the API fully functional again.
+* No code changes are required for users who already integrated v1.0.0.
+
+**Previous Release Notes (v1.0.0):**
+
+For details on the API's features and structure, please refer to the [v1.0.0 Changelog](https://github.com/Sudhanshu-Ambastha/Pokemon-3D-api/blob/main/docs/CHANGELOG.md)
+
+---
+
 ## Version 1.0.0 (22/03/2025) - Major API Update and Model Overhaul
 
 This release introduces a major update to the Pokémon 3D API, including breaking changes to the JSON response structure, significant model additions, and a comprehensive overhaul of the documentation.
