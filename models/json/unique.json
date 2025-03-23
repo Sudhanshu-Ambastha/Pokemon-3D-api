@@ -1,0 +1,24 @@
+{ 
+  "pokemon": [
+    {
+      "id": 150,
+      "name": "Armoured Mewtwo",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/unique/150.glb"
+    },
+    {
+      "id": 658,
+      "name": "Ash's Greninja",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/unique/658.glb"
+    },
+    {
+      "id": 800,
+      "name": "Ultra Necrozma",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/unique/800.glb"
+    },
+    {
+      "id": 890,
+      "name": "Eternamax Eternatus",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/unique/890.glb"
+    }
+  ]
+}

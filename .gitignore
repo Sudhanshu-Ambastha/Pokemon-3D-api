@@ -1,0 +1,29 @@
+# .gitignore
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/
+
+# System files
+.DS_Store
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+.vercel
+
+# Webpack Build files
+webpack/dist/
+webpack/node_modules/
+dist/

@@ -1,0 +1,112 @@
+{
+  "pokemon": [
+  {
+    "id": 19,
+    "name": "Alolan Rattata",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/19.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/alolan/19.jsx"
+  },
+  {
+    "id": 20,
+    "name": "Alolan Raticate",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/20.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/alolan/20.jsx"
+  },
+  {
+    "id": 26,
+    "name": "Alolan Raichu",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/26.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/alolan/26.jsx"
+  },
+  {
+    "id": 27,
+    "name": "Alolan Sandshrew",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/27.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/alolan/27.jsx"
+  },
+  {
+    "id": 28,
+    "name": "Alolan Sandslash",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/28.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/alolan/28.jsx"
+  },
+  {
+    "id": 37,
+    "name": "Alolan Vulpix",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/37.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/alolan/37.jsx"
+  },
+  {
+    "id": 38,
+    "name": "Alolan Ninetales",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/38.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/alolan/38.jsx"
+  },
+  {
+    "id": 50,
+    "name": "Alolan Diglett",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/50.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/alolan/50.jsx"
+  },
+  {
+    "id": 51,
+    "name": "Alolan Dugtrio",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/51.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/alolan/51.jsx"
+  },
+  {
+    "id": 52,
+    "name": "Alolan Meowth",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/52.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/alolan/52.jsx"
+  },
+  {
+    "id": 53,
+    "name": "Alolan Persian",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/53.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/alolan/53.jsx"
+  },
+  {
+    "id": 74,
+    "name": "Alolan Geodude",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/74.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/alolan/74.jsx"
+  },
+  {
+    "id": 75,
+    "name": "Alolan Graveler",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/75.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/alolan/75.jsx"
+  },
+  {
+    "id": 76,
+    "name": "Alolan Golem",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/76.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/alolan/76.jsx"
+  },
+  {
+    "id": 88,
+    "name": "Alolan Grimer",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/88.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/alolan/88.jsx"
+  },
+  {
+    "id": 89,
+    "name": "Alolan Muk",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/89.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/alolan/89.jsx"
+  },
+  {
+    "id": 103,
+    "name": "Alolan Exeggutor",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/103.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/alolan/103.jsx"
+  },
+  {
+    "id": 105,
+    "name": "Alolan Marowak",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/105.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/alolan/105.jsx"
+  }
+]
+}

@@ -1,0 +1,297 @@
+{
+	"info": {
+		"_postman_id": "6e748bde-ef31-4594-a4d1-71b63fc78c98",
+		"name": "Pokemon3D API",
+		"description": "This API provides access to 3D models of Pokémon, specifically in the GLB format. It's designed to be used with the [Pokemon3D ](https://github.com/Sudhanshu-Ambastha/Pokemon-3D) project found on GitHub. The API allows you to easily retrieve the necessary 3D model data for use within this project, enabling you to integrate and display interactive Pokémon models within your applications.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "29725199-6e748bde-ef31-4594-a4d1-71b63fc78c98"
+	},
+	"item": [
+		{
+			"name": "All",
+			"id": "e49fb94d-25e2-4838-9724-1e8ca77f19dd",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokemon3d-api.onrender.com/v1/all",
+					"protocol": "https",
+					"host": [
+						"pokemon3d-api",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"v1",
+						"all"
+					]
+				},
+				"description": "This URL accesses an API endpoint that retrieves a comprehensive list of all Pokémon. It fetches data from various Pokémon collections, including regular, shiny, and other forms, providing a complete overview of the available Pokémon data."
+			},
+			"response": []
+		},
+		{
+			"name": "Regular",
+			"id": "fbca700e-a117-4466-9d04-df2f125ff442",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokemon3d-api.onrender.com/v1/Regular",
+					"protocol": "https",
+					"host": [
+						"pokemon3d-api",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"v1",
+						"Regular"
+					]
+				},
+				"description": "This URL accesses an API endpoint that specifically retrieves data for **Regular** Pokémon. It queries the database for all entries within the \"RegularPokemon\" collection, providing information about all standard, non-variant forms of Pokémon (id limit=721).\n\n(✅: all models present till 721 or till gen 6)"
+			},
+			"response": []
+		},
+		{
+			"name": "Shiny",
+			"id": "4934a718-2917-4443-99aa-86fc2380cd06",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokemon3d-api.onrender.com/v1/Shiny",
+					"protocol": "https",
+					"host": [
+						"pokemon3d-api",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"v1",
+						"Shiny"
+					]
+				},
+				"description": "This URL accesses an API endpoint that specifically retrieves data for **Shiny** Pokémon. It queries the database for all entries within the \"ShinyPokemon\" collection, providing information about all Shiny variants of Pokémon\n\n(🚧: models needed)"
+			},
+			"response": []
+		},
+		{
+			"name": "Alolan",
+			"id": "b680bbc8-d767-4ee2-8672-029d4bb315aa",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokemon3d-api.onrender.com/v1/Alolan",
+					"protocol": "https",
+					"host": [
+						"pokemon3d-api",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"v1",
+						"Alolan"
+					]
+				},
+				"description": "This URL accesses an API endpoint that specifically retrieves data for **Alolan** forms of Pokémon. It queries the database for all entries within the \"AlolanPokemon\" collection, providing information about Pokémon with unique characteristics found in the Alola region.\n\n(🚧: models needed)"
+			},
+			"response": []
+		},
+		{
+			"name": "Hisuian",
+			"id": "d92da1d9-6a5a-4cd8-a799-ed6b9d65ee0f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokemon3d-api.onrender.com/v1/Hisuian",
+					"protocol": "https",
+					"host": [
+						"pokemon3d-api",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"v1",
+						"Hisuian"
+					]
+				},
+				"description": "This URL accesses an API endpoint that specifically retrieves data for **Hisuian** forms of Pokémon. It queries the database for all entries within the \"HisuianPokemon\" collection, providing information about Pokémon with unique characteristics found in the Hisui region (now known as the Sinnoh region)\n\n(✅: all models present)"
+			},
+			"response": []
+		},
+		{
+			"name": "Galarian",
+			"id": "1d940bd2-072d-443c-a37d-c0e8309f2c24",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokemon3d-api.onrender.com/v1/Galar",
+					"protocol": "https",
+					"host": [
+						"pokemon3d-api",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"v1",
+						"Galar"
+					]
+				},
+				"description": "This URL accesses an API endpoint that specifically retrieves data for **Galar** forms of Pokémon. It queries the database for all entries within the \"GalarPokemon\" collection, providing information about Pokémon with unique characteristics found in the Galar region\n\n(🚧: models needed)"
+			},
+			"response": []
+		},
+		{
+			"name": "Primal",
+			"id": "e51a72cf-50ca-471b-9d6d-ff0e4b8f778b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokemon3d-api.onrender.com/v1/Primal",
+					"protocol": "https",
+					"host": [
+						"pokemon3d-api",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"v1",
+						"Primal"
+					]
+				},
+				"description": "Primal Pokémon are legendary Pokémon that can undergo a powerful transformation, gaining increased strength and altered appearances. This transformation, known as Primal Reversion, is triggered by specific conditions and grants them immense power\n\n(✅: all models present)"
+			},
+			"response": []
+		},
+		{
+			"name": "Origin",
+			"id": "90aba82b-1b55-4e2d-8c5a-ee84f657ea0d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokemon3d-api.onrender.com/v1/Origin",
+					"protocol": "https",
+					"host": [
+						"pokemon3d-api",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"v1",
+						"Origin"
+					]
+				},
+				"description": "This URL accesses an API endpoint that specifically retrieves data for **Primal** forms of Pokémon. It queries the database for all entries within the \"PrimalPokemon\" collection, providing information about Pokémon that can undergo a Primal Reversion, such as Primal Groudon and Primal Kyogre\n\n(✅: all models present)"
+			},
+			"response": []
+		},
+		{
+			"name": "Mega",
+			"id": "51d33926-ac25-4d5e-8aa7-5982a16fdc6c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokemon3d-api.onrender.com/v1/Mega",
+					"protocol": "https",
+					"host": [
+						"pokemon3d-api",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"v1",
+						"Mega"
+					]
+				},
+				"description": "This URL accesses an API endpoint that specifically retrieves data for **Mega** forms of Pokémon. It queries the database for all entries within the \"MegaPokemon\" collection, providing information about Pokémon that can Mega Evolve through the use of Mega Stones\n\n(✅: all models present)"
+			},
+			"response": []
+		},
+		{
+			"name": "XY",
+			"id": "6b669d63-1fe0-41d1-9c68-9e689b906889",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokemon3d-api.onrender.com/v1/XY",
+					"protocol": "https",
+					"host": [
+						"pokemon3d-api",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"v1",
+						"XY"
+					]
+				},
+				"description": "This URL accesses an API endpoint that specifically retrieves data for Pokémon introduced in the **Pokémon X and Y** games. It queries the database for all entries within the \"XyPokemon\" collection, providing information about the Pokémon that were first introduced in the Kalos region\n\n(✅: all models present)"
+			},
+			"response": []
+		},
+		{
+			"name": "Gmax",
+			"id": "76f2ddad-b9f1-438f-a603-423a50271d95",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokemon3d-api.onrender.com/v1/Gmax",
+					"protocol": "https",
+					"host": [
+						"pokemon3d-api",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"v1",
+						"Gmax"
+					]
+				},
+				"description": "This URL accesses an API endpoint that specifically retrieves data for **Gigantamax** forms of Pokémon. It queries the database for all entries within the \"GmaxPokemon\" collection, providing information about Pokémon that can undergo Gigantamaxing in the Galar region\n\n(🚧: models needed)"
+			},
+			"response": []
+		}
+	]
+}

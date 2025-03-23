@@ -1,0 +1,124 @@
+{
+  "pokemon": [
+  {
+    "id": 52,
+    "name": "Galarian Meowth",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/52.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/52.jsx"
+  },
+  {
+    "id": 53,
+    "name": "Galarian Persian",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/53.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/53.jsx"
+  },
+  {
+    "id": 77,
+    "name": "Galarian Ponyta",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/77.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/77.jsx"
+  },
+  {
+    "id": 78,
+    "name": "Galarian Rapidash",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/78.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/78.jsx"
+  },
+  {
+    "id": 79,
+    "name": "Galarian Slowpoke",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/79.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/79.jsx"
+  },
+  {
+    "id": 80,
+    "name": "Galarian Slowbro",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/80.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/80.jsx"
+  },
+  {
+    "id": 83,
+    "name": "Galarian Farfetch'd",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/83.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/83.jsx"
+  },
+  {
+    "id": 109,
+    "name": "Galarian Weezing",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/109.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/109.jsx"
+  },
+  {
+    "id": 122,
+    "name": "Galarian Mr. Mime",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/122.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/122.jsx"
+  },
+  {
+    "id": 199,
+    "name": "Galarian SLowking",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/199.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/199.jsx"
+  },
+  {
+    "id": 222,
+    "name": "Galarian Corsola",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/222.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/222.jsx"
+  },
+  {
+    "id": 263,
+    "name": "Galarian Zigzagoon",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/263.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/263.jsx"
+  },
+  {
+    "id": 264,
+    "name": "Galarian Linoone",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/264.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/264.jsx"
+  },
+  {
+    "id": 554,
+    "name": "Galarian Darumaka",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/554.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/554.jsx"
+  },
+  {
+    "id": 555,
+    "name": "Galarian Darmanitan",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/555.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/555.jsx"
+  },
+  {
+    "id": 562,
+    "name": "Galarian Yamask",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/562.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/562.jsx"
+  },
+  {
+    "id": 618,
+    "name": "Galarian Stunfisk",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/618.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/618.jsx"
+  },
+  {
+    "id": 865,
+    "name": "Galarian Sirfetch'd",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/865.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/865.jsx"
+  },
+  {
+    "id": 867,
+    "name": "Galarian Runerigus",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/867.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/867.jsx"
+  },
+  {
+    "id": 866,
+    "name": "Galarian Mr. Rime",
+    "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/866.glb",
+    "JsxComp": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/gltfjsx/galar/866.jsx"
+  }
+]
+}

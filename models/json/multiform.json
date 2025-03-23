@@ -1,0 +1,94 @@
+{
+  "pokemon": [
+    {
+      "id": 128,
+      "name": "Paldean Tauros (aqua breed)",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiForm/128-1.glb"
+    },
+    {
+      "id": 128,
+      "name": "Paldean Tauros (blaze breed)",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiForm/128-2.glb"
+    },
+    {
+      "id": 128,
+      "name": "Paldean Tauros (combat breed)",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiForm/128-3.glb"
+    },
+    {
+      "id": 386,
+      "name": "Deoxys Attack Form",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiForm/386-1.glb"
+    },
+    {
+      "id": 386,
+      "name": "Deoxys Defense Form",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiForm/386-2.glb"
+    },
+    {
+      "id": 386,
+      "name": "Deoxys Speed Form",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiForm/386-3.glb"
+    },
+    {
+      "id": 479,
+      "name": "Rotom Fan",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiForm/RotomFan.glb"
+    },
+    {
+      "id": 479,
+      "name": "Rotom Frost",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiForm/RotomFrost.glb"
+    },
+    {
+      "id": 479,
+      "name": "Rotom Heat",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiForm/RotomHeat.glb"
+    },
+    {
+      "id": 479,
+      "name": "Rotom Mow",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiForm/RotomMow.glb"
+    },
+    {
+      "id": 492,
+      "name": "Shaymin Sky",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiForm/ShayminSky.glb"
+    },
+    {
+      "id": 550,
+      "name": "Basculin Blue Stripe",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiForm/BasculinBlueStripe.glb"
+    },
+    {
+      "id": 718,
+      "name": "Zygarde Cell",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiForm/ZygardeCell.glb"
+    },
+    {
+      "id": 745,
+      "name": "Lycanroc Dusk Form",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiForm/LycanrocDuskForm.glb"
+    },
+    {
+      "id": 745,
+      "name": "Lycanroc Midnight Form",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiForm/LycanrocMidnightForm.glb"
+    },
+    {
+      "id": 746,
+      "name": "Wishiwashi School Form",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiForm/WishiwashiSchool.glb"
+    },
+    {
+      "id": 905,
+      "name": "Enamorus Therian",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiForm/EnamorusTherian.glb"
+    },
+    {
+      "id": 1018,
+      "name": "Archaludon Charging Form",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiForm/ArchaludonCharging.glb"
+    }
+  ]
+}

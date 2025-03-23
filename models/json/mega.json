@@ -1,0 +1,219 @@
+{
+  "pokemon": [
+    {
+      "id": 3,
+      "name": "Mega Venusaur",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/3.glb"
+    },
+    {
+      "id": 15,
+      "name": "Mega Beedrill",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/15.glb"
+    },
+    {
+      "id": 18,
+      "name": "Mega Pidgeot",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/18.glb"
+    },
+    {
+      "id": 65,
+      "name": "Mega Alakazam",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/65.glb"
+    },
+    {
+      "id": 80,
+      "name": "Mega Slowbro",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/80.glb"
+    },
+    {
+      "id": 94,
+      "name": "Mega Gengar",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/94.glb"
+    },
+    {
+      "id": 115,
+      "name": "Mega Kangaskhan",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/115.glb"
+    },
+    {
+      "id": 127,
+      "name": "Mega Pinsir",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/127.glb"
+    },
+    {
+      "id": 130,
+      "name": "Mega Gyarados",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/130.glb"
+    },
+    {
+      "id": 142,
+      "name": "Mega Aerodactyl",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/142.glb"
+    },
+    {
+      "id": 181,
+      "name": "Mega Ampharos",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/181.glb"
+    },
+    {
+      "id": 208,
+      "name": "Mega Steelix",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/208.glb"
+    },
+    {
+      "id": 212,
+      "name": "Mega Scizor",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/212.glb"
+    },
+    {
+      "id": 214,
+      "name": "Mega Heracross",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/214.glb"
+    },
+    {
+      "id": 229,
+      "name": "Mega Houndoom",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/229.glb"
+    },
+    {
+      "id": 248,
+      "name": "Mega Tyranitar",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/248.glb"
+    },
+    {
+      "id": 254,
+      "name": "Mega Sceptile",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/254.glb"
+    },
+    {
+      "id": 257,
+      "name": "Mega Blaziken",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/257.glb"
+    },
+    {
+      "id": 260,
+      "name": "Mega Swampert",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/260.glb"
+    },
+    {
+      "id": 282,
+      "name": "Mega Gardevoir",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/282.glb"
+    },
+    {
+      "id": 302,
+      "name": "Mega Sableye",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/302.glb"
+    },
+    {
+      "id": 303,
+      "name": "Mega Mawile",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/303.glb"
+    },
+    {
+      "id": 306,
+      "name": "Mega Aggron",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/306.glb"
+    },
+    {
+      "id": 308,
+      "name": "Mega Medicham",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/308.glb"
+    },
+    {
+      "id": 310,
+      "name": "Mega Manectric",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/310.glb"
+    },
+    {
+      "id": 319,
+      "name": "Mega Sharpedo",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/319.glb"
+    },
+    {
+      "id": 323,
+      "name": "Mega Camerupt",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/323.glb"
+    },
+    {
+      "id": 334,
+      "name": "Mega Altaria",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/334.glb"
+    },
+    {
+      "id": 354,
+      "name": "Mega Banette",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/354.glb"
+    },
+    {
+      "id": 359,
+      "name": "Mega Absol",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/359.glb"
+    },
+    {
+      "id": 362,
+      "name": "Mega Glalie",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/362.glb"
+    },
+    {
+      "id": 373,
+      "name": "Mega Salamence",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/373.glb"
+    },
+    {
+      "id": 376,
+      "name": "Mega Metagross",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/376.glb"
+    },
+    {
+      "id": 380,
+      "name": "Mega Latias",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/380.glb"
+    },
+    {
+      "id": 381,
+      "name": "Mega Latios",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/381.glb"
+    },
+    {
+      "id": 384,
+      "name": "Mega Rayquaza",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/384.glb"
+    },
+    {
+      "id": 428,
+      "name": "Mega Lopunny",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/428.glb"
+    },
+    {
+      "id": 445,
+      "name": "Mega Garchomp",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/445.glb"
+    },
+    {
+      "id": 448,
+      "name": "Mega Lucario",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/448.glb"
+    },
+    {
+      "id": 460,
+      "name": "Mega Abomasnow",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/460.glb"
+    },
+    {
+      "id": 475,
+      "name": "Mega Gallade",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/475.glb"
+    },
+    {
+      "id": 531,
+      "name": "Mega Audino",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/531.glb"
+    },
+    {
+      "id": 719,
+      "name": "Mega Diancie",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/mega/719.glb"
+    }
+  ]
+}

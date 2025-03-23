@@ -1,0 +1,136 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Pokemon3D API",
+    "description": "This API provides access to 3D models of Pokémon.",
+    "version": "0.0.1"
+  },
+  "servers": [
+    {
+      "url": "https://pokemon3d-api.onrender.com"
+    }
+  ],
+  "paths": {
+    "/v1/all": {
+      "get": {
+        "summary": "Retrieve all Pokémon",
+        "description": "Retrieves a comprehensive list of all Pokémon (regular, shiny, etc.).",
+        "responses": {
+          "200": {
+            "description": "Successful retrieval of Pokémon data."
+          }
+        }
+      }
+    },
+    "/v1/Regular": {
+      "get": {
+        "summary": "Retrieve Regular Pokémon",
+        "description": "Retrieves data for Regular (non-variant) Pokémon.",
+        "responses": {
+          "200": {
+            "description": "Successful retrieval of Regular Pokémon data."
+          }
+        }
+      }
+    },
+    "/v1/Shiny": {
+      "get": {
+        "summary": "Retrieve Shiny Pokémon",
+        "description": "Retrieves data for Shiny variant Pokémon.",
+        "responses": {
+          "200": {
+            "description": "Successful retrieval of Shiny Pokémon data."
+          }
+        }
+      }
+    },
+    "/v1/Alolan": {
+      "get": {
+        "summary": "Retrieve Alolan Pokémon",
+        "description": "Retrieves data for Alolan form Pokémon.",
+        "responses": {
+          "200": {
+            "description": "Successful retrieval of Alolan Pokémon data."
+          }
+        }
+      }
+    },
+    "/v1/Hisuian": {
+      "get": {
+        "summary": "Retrieve Hisuian Pokémon",
+        "description": "Retrieves data for Hisuian form Pokémon.",
+        "responses": {
+          "200": {
+            "description": "Successful retrieval of Hisuian Pokémon data."
+          }
+        }
+      }
+    },
+    "/v1/Galar": {
+      "get": {
+        "summary": "Retrieve Galar Pokémon",
+        "description": "Retrieves data for Galar form Pokémon.",
+        "responses": {
+          "200": {
+            "description": "Successful retrieval of Galar Pokémon data."
+          }
+        }
+      }
+    },
+    "/v1/Primal": {
+      "get": {
+        "summary": "Retrieve Primal Pokémon",
+        "description": "Retrieves data for Primal form Pokémon.",
+        "responses": {
+          "200": {
+            "description": "Successful retrieval of Primal Pokémon data."
+          }
+        }
+      }
+    },
+    "/v1/Origin": {
+      "get": {
+        "summary": "Retrieve Origin Pokémon",
+        "description": "Retrieves data for Origin form Pokémon.",
+        "responses": {
+          "200": {
+            "description": "Successful retrieval of Origin Pokémon data."
+          }
+        }
+      }
+    },
+    "/v1/Mega": {
+      "get": {
+        "summary": "Retrieve Mega Pokémon",
+        "description": "Retrieves data for Mega evolved Pokémon.",
+        "responses": {
+          "200": {
+            "description": "Successful retrieval of Mega Pokémon data."
+          }
+        }
+      }
+    },
+    "/v1/XY": {
+      "get": {
+        "summary": "Retrieve XY Pokémon",
+        "description": "Retrieves data for Pokémon introduced in Pokémon X and Y.",
+        "responses": {
+          "200": {
+            "description": "Successful retrieval of XY Pokémon data."
+          }
+        }
+      }
+    },
+    "/v1/Gmax": {
+      "get": {
+        "summary": "Retrieve Gigantamax Pokémon",
+        "description": "Retrieves data for Gigantamax Pokémon.",
+        "responses": {
+          "200": {
+            "description": "Successful retrieval of Gigantamax Pokémon data."
+          }
+        }
+      }
+    }
+  }
+}
