@@ -2,10 +2,6 @@ models/opt/megashiny/9.glb
 models/opt/megashiny/384.glb
 models/opt/megashiny/282.glb
 models/opt/megashiny/359.glb
-models/opt/multishinyform/746_school.glb
-models/opt/multishinyform/Deoxys_Defense_Form.glb
-models/opt/multishinyform/Deoxys_Attack_Form.glb
-models/opt/multishinyform/Deoxys_Speed_Form.glb
 models/opt/multiform/ShayminSky.glb
 models/opt/multiform/ArchaludonCharging.glb
 models/opt/multiform/LycanrocDuskForm.glb
