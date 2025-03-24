@@ -1,3 +1,5 @@
+models/opt/regular/755.glb
+models/opt/regular/756.glb
 models/opt/megashiny/9.glb
 models/opt/megashiny/384.glb
 models/opt/megashiny/282.glb
