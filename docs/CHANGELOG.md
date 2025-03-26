@@ -44,12 +44,12 @@ This release introduces a major update to the Pokémon 3D API, including breakin
     "forms": [
       {
         "name": "Bulbasaur",
-        "model": "[https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/1.glb](https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/1.glb)",
+        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/1.glb",
         "formName": "regular"
       },
       {
         "name": "Shiny Bulbasaur",
-        "model": "[https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1.glb](https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1.glb)",
+        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1.glb",
         "formName": "shiny"
       }
       // ... more forms
