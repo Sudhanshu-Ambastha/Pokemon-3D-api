@@ -1,4 +1,4 @@
-name: Process GLB & JSX Files
+name: Process GLB & JSX Files and Publish Package
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  process-files:
+  process-and-publish:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -18,6 +18,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          registry-url: https://registry.npmjs.org/
 
       - name: Install glTF-Transform CLI
         run: npm install --global @gltf-transform/cli
@@ -46,10 +47,24 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v3
         with:
-          python-version: "3.12" # Specify Python 3.12
+          python-version: "3.12"
 
       # - name: Combine JSON Files
       #   run: python scripts/merge_json.py
+
+      - name: Generate models/index.js
+        run: bash scripts/generate-models-index.sh
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build Package
+        run: npm run build
+
+      - name: Publish Package
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Commit and Push Changes
         env:
