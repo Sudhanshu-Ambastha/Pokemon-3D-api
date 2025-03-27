@@ -44,10 +44,10 @@ jobs:
       - name: Cleanup Orphaned JSX Files
         run: bash scripts/cleanup_orphan_jsx.sh
 
-      - name: Setup Python
-        uses: actions/setup-python@v3
-        with:
-          python-version: "3.12"
+      # - name: Setup Python
+      #   uses: actions/setup-python@v3
+      #   with:
+      #     python-version: "3.12"
 
       # - name: Combine JSON Files
       #   run: python scripts/merge_json.py
