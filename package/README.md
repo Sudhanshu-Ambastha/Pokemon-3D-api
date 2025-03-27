@@ -16,4 +16,3 @@ This package provides a collection of React components for rendering 3D Pokemon 
 npm i pokemon-3d-api-jsx-components @react-three/fiber @react-three/drei three
 ```
 **Important:** Please ensure you also install the peer dependencies: `@react-three/fiber`, `@react-three/drei`, and `three`.
-

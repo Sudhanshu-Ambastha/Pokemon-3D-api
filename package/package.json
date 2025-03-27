@@ -24,20 +24,20 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel models --out-dir dist",
+    "build": "babel ../models --out-dir dist",
     "publish": "npm publish --access public"
   },
   "peerDependencies": {
+    "@react-three/drei": "^9.0.0",
+    "@react-three/fiber": "^8.0.0",
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0",
-    "@react-three/fiber": "^8.0.0",
-    "@react-three/drei": "^9.0.0",
     "three": "^0.150.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.23.4",
-    "@babel/core": "^7.23.7",
-    "@babel/preset-react": "^7.23.3"
+    "@babel/cli": "^7.27.0",
+    "@babel/core": "^7.26.10",
+    "@babel/preset-react": "^7.26.3"
   },
   "files": [
     "dist",
