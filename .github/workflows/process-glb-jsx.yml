@@ -35,8 +35,8 @@ jobs:
       # - name: Convert GLB Files to JSX
       #   run: bash scripts/convert.sh
 
-      # - name: Update JSX Files
-      #   run: bash scripts/update_jsx.sh ${{ github.repository }} main
+      - name: Update JSX Files
+        run: bash scripts/update_jsx.sh ${{ github.repository }} main
 
       # - name: Handle Conversion Errors
       #   run: bash scripts/handle_errors.sh
