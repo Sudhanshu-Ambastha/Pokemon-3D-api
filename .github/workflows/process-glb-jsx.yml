@@ -29,8 +29,8 @@ jobs:
       - name: Detect Missing JSX Files
         run: bash scripts/detect_missing.sh
 
-      - name: Optimize GLB Models
-        run: bash scripts/optimize_models.sh
+      # - name: Optimize GLB Models
+      #   run: bash scripts/optimize_models.sh
 
       # - name: Convert GLB Files to JSX
       #   run: bash scripts/convert.sh
