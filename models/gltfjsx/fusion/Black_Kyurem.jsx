@@ -10,7 +10,7 @@ Title: Pokemon Black and white Kyurem
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function Black kyurem(props) {
+export default function Black_kyurem(props) {
   const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/fusion/black kyurem.glb')
   return (
     <group {...props} dispose={null}>
