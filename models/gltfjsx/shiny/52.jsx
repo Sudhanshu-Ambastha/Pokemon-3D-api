@@ -10,8 +10,8 @@ Title: 3DS - Pokemon Sun Moon - 052 Meowth
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 52(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shiny/52.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/52.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Object_4.geometry} material={materials.pm0052_61_Body_tga} />
@@ -20,4 +20,4 @@ export default function 52(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shiny/52.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/52.glb')

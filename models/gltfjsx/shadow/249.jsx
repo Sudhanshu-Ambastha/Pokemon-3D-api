@@ -6,8 +6,8 @@ Command: npx gltfjsx@6.5.3 models/opt/shadow/249.glb -o models/gltfjsx/shadow/24
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 249(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shadow/249.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shadow/249.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Joint_63_Object_0_SINGLE.geometry} material={materials['Joint_63_Object_0_Material_0.001']} rotation={[Math.PI / 2, 0, 0]} />
@@ -19,4 +19,4 @@ export default function 249(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shadow/249.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shadow/249.glb')

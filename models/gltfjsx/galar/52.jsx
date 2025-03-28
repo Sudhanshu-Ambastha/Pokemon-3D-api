@@ -6,8 +6,8 @@ Command: npx gltfjsx@6.5.3 models/opt/galar/52.glb -o models/gltfjsx/galar/52.js
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 52(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/52.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/galar/52.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.pm0052_00_31_body_mesh_shape_body_a.geometry} material={materials['body_a.002']} rotation={[Math.PI / 2, 0, 0]} />
@@ -17,4 +17,4 @@ export default function 52(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/52.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/galar/52.glb')

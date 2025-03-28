@@ -10,8 +10,8 @@ Title: SQUISHY
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function ZygardeCell(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/multiForm/ZygardeCell.glb')
+export default function ModelmultiFormZygardeCell(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiForm/ZygardeCell.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Object_2.geometry} material={materials['Material.001']} rotation={[-Math.PI / 2, 0, 0]} />
@@ -22,4 +22,4 @@ export default function ZygardeCell(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/multiForm/ZygardeCell.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiForm/ZygardeCell.glb')

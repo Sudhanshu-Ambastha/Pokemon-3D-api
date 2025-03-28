@@ -10,8 +10,8 @@ Title: Wooloo
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 831(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/831.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/831.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes['Woloo013_(null)_0'].geometry} material={materials['null']} position={[0, 4.402, 26.383]} scale={100} />
@@ -19,4 +19,4 @@ export default function 831(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/831.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/831.glb')

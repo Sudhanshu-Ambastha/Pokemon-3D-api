@@ -6,8 +6,8 @@ Command: npx gltfjsx@6.5.3 models/opt/multiForm/ArchaludonCharging.glb -o models
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function ArchaludonCharging(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/multiForm/ArchaludonCharging.glb')
+export default function ModelmultiFormArchaludonCharging(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiForm/ArchaludonCharging.glb')
   return (
     <group {...props} dispose={null}>
       <group position={[0.015, 0.027, 0.355]} rotation={[Math.PI / 2, 0, 0]}>
@@ -19,4 +19,4 @@ export default function ArchaludonCharging(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/multiForm/ArchaludonCharging.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiForm/ArchaludonCharging.glb')

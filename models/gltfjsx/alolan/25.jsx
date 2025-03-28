@@ -10,8 +10,8 @@ Title: #25 Pikachu (Alola Version)
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 25(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/25.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/alolan/25.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Object_4.geometry} material={materials['Material_161.001']} position={[-0.01, 31.373, 9.31]} />
@@ -23,4 +23,4 @@ export default function 25(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/25.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/alolan/25.glb')

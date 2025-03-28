@@ -6,8 +6,8 @@ Command: npx gltfjsx@6.5.3 models/opt/regular/746.glb -o models/gltfjsx/regular/
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 746(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/746.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/746.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.instance_0.geometry} material={materials.pm0820_11_Eye1_tga} position={[0, 0.135, -0.195]} rotation={[Math.PI / 2, 0, 0]} scale={0.02} />
@@ -16,4 +16,4 @@ export default function 746(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/746.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/746.glb')

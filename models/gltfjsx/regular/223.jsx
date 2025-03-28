@@ -10,8 +10,8 @@ Title: Remoraid
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 223(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/223.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/223.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Object_3.geometry} material={materials.body_mat} />
@@ -21,4 +21,4 @@ export default function 223(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/223.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/223.glb')

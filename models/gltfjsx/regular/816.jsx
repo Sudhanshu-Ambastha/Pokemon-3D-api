@@ -10,8 +10,8 @@ Title: Sobble - Pokemon Sword and Shield
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 816(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/816.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/816.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Aguita_Agua_0.geometry} material={materials.Agua} position={[0, 5.458, 0]} rotation={[-Math.PI / 2, 0, -Math.PI / 2]} scale={100} />
@@ -21,4 +21,4 @@ export default function 816(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/816.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/816.glb')

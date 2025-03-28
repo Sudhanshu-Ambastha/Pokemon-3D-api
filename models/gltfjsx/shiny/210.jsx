@@ -6,8 +6,8 @@ Command: npx gltfjsx@6.5.3 models/opt/shiny/210.glb -o models/gltfjsx/shiny/210.
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 210(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shiny/210.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/210.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes['210#Granbull'].geometry} material={materials.PaletteMaterial001} position={[-0.172, -0.042, 1.133]} rotation={[1.496, 0, 0]} />
@@ -15,4 +15,4 @@ export default function 210(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shiny/210.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/210.glb')

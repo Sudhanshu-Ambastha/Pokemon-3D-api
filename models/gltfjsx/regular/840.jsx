@@ -10,8 +10,8 @@ Title: Pokemon Sword and Shield Applin Model
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 840(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/840.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/840.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes['Cylinder002_07_-_Default_0'].geometry} material={materials['07_-_Default']} position={[5.169, 0, 19.053]} rotation={[-Math.PI / 2, 0, 0]} />
@@ -21,4 +21,4 @@ export default function 840(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/840.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/840.glb')

@@ -10,8 +10,8 @@ Title: Phantump Shiny
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 708(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shiny/708.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/708.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes['Flame_Gradient-emi_0'].geometry} material={materials['Gradient-emi']} position={[569.042, 26.138, -86.077]} rotation={[-1.569, -0.015, 0.132]} scale={29.515} />
@@ -20,4 +20,4 @@ export default function 708(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shiny/708.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/708.glb')

@@ -10,8 +10,8 @@ Title: Galarian Koffing
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 109(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/109.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/galar/109.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Box001_Group16296_0.geometry} material={materials.Group16296} position={[2090.335, -4886.19, 5504.316]} scale={229.971} />
@@ -24,4 +24,4 @@ export default function 109(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/galar/109.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/galar/109.glb')

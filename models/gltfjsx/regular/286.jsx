@@ -10,8 +10,8 @@ Title: Chapignon fan art
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 286(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/286.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/286.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Sphere_Material014_0.geometry} material={materials.PaletteMaterial001} position={[-2278.556, -3613.939, 5046.429]} rotation={[-1.46, -0.025, -0.786]} scale={[1467.516, 1467.516, 1467.517]} />
@@ -21,4 +21,4 @@ export default function 286(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/286.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/286.glb')

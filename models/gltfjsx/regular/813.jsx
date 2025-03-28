@@ -10,8 +10,8 @@ Title: Scorbunny Model
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 813(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/813.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/813.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.polySurface1_aiStandardSurface7_0.geometry} material={materials.aiStandardSurface7} position={[0, 2.41, 0]} />
@@ -19,4 +19,4 @@ export default function 813(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/813.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/813.glb')
