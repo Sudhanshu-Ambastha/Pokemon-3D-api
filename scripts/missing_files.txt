@@ -22,3 +22,5 @@ models/opt/multiform/RotomMow.glb
 models/opt/multiform/BasculinBlueStripe.glb
 models/opt/multiform/WishiwashiSchool.glb
 models/opt/multiform/128-1.glb
+models/opt/fusion/black kyurem.glb
+models/opt/fusion/White Kyurem.glb

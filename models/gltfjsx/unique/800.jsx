@@ -10,9 +10,9 @@ Title: Ultra Necrozma (Re-upload)
 import React from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 
-export default function 800(props) {
+export function Model(props) {
   const group = React.useRef()
-  const { nodes, materials, animations } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/unique/800.glb')
+  const { nodes, materials, animations } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/unique/800.glb')
   const { actions } = useAnimations(animations, group)
   return (
     <group ref={group} {...props} dispose={null}>
@@ -1351,4 +1351,4 @@ export default function 800(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/unique/800.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/unique/800.glb')

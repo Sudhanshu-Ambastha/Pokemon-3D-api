@@ -6,8 +6,8 @@ Command: npx gltfjsx@6.5.3 models/opt/multiForm/128-3.glb -o models/gltfjsx/mult
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 128-3(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/multiForm/128-3.glb')
+export default function ModelmultiForm128-3(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiForm/128-3.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.pm0128_11_51_body_mesh_shape_body_a_00.geometry} material={materials.body_a_00} position={[-0.065, 0, 0]} rotation={[Math.PI / 2, 0, 0]} />
@@ -17,4 +17,4 @@ export default function 128-3(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/multiForm/128-3.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiForm/128-3.glb')

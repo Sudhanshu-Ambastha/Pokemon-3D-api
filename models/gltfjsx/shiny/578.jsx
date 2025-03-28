@@ -6,8 +6,8 @@ Command: npx gltfjsx@6.5.3 models/opt/shiny/578.glb -o models/gltfjsx/shiny/578.
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 578(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shiny/578.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/578.glb')
   return (
     <group {...props} dispose={null}>
       <group position={[0.244, 0.948, 0.188]} rotation={[-3.14, Math.PI / 2, 0]}>
@@ -19,4 +19,4 @@ export default function 578(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shiny/578.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/578.glb')

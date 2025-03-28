@@ -10,8 +10,8 @@ Title: Iron Treads - Pokémon
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 990(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/990.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/990.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.pSphere1_blinn3_0.geometry} material={materials.blinn3} scale={0.01} />
@@ -21,4 +21,4 @@ export default function 990(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/990.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/990.glb')

@@ -6,8 +6,8 @@ Command: npx gltfjsx@6.5.3 models/opt/regular/379.glb -o models/gltfjsx/regular/
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 379(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/379.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/379.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Registeel_Material001_0.geometry} material={materials['Material.005']} position={[0.033, 1.678, 0.465]} rotation={[-2.394, 0.243, -2.875]} scale={[0.098, 0.098, 0.095]} />
@@ -18,4 +18,4 @@ export default function 379(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/379.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/379.glb')

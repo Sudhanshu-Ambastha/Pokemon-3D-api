@@ -10,8 +10,8 @@ Title: Shiny Lycanroc Midnight
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 745(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shiny/745.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/745.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.shiny_lycanroc_midnight_torso_shiny_lycanroc_midnight_material002_0.geometry} material={materials.PaletteMaterial001} position={[0, 267.006, 72.034]} rotation={[-Math.PI / 2, 0, 0]} scale={5} />
@@ -19,4 +19,4 @@ export default function 745(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shiny/745.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/745.glb')

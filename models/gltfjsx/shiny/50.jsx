@@ -10,8 +10,8 @@ Title: Taupiqueur Shiny
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 50(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shiny/50.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/50.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Cube_trou_0.geometry} material={materials.trou} position={[0.194, 4.784, 0.023]} rotation={[-1.608, -0.387, 3.042]} scale={[0.06, 0.663, 0.426]} />
@@ -24,4 +24,4 @@ export default function 50(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shiny/50.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/50.glb')

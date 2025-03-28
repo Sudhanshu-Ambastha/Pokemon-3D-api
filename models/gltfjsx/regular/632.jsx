@@ -10,8 +10,8 @@ Title: 鐵蟻
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 632(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/632.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/632.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes['������_������004_0'].geometry} material={materials['.004']} rotation={[-0.352, 0, 0]} scale={1.118} />
@@ -27,4 +27,4 @@ export default function 632(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/632.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/632.glb')

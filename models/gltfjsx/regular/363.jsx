@@ -10,8 +10,8 @@ Title: Spheal Pokemon
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 363(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/363.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/363.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Object_4.geometry} material={materials.puzo_i_nos} position={[0.952, 0.234, -0.292]} rotation={[-2.904, -0.087, -0.441]} scale={0.072} />
@@ -19,4 +19,4 @@ export default function 363(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/363.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/363.glb')

@@ -6,8 +6,8 @@ Command: npx gltfjsx@6.5.3 models/opt/alolan/88.glb -o models/gltfjsx/alolan/88.
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 88(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/88.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/alolan/88.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.pm0088_00_11_body_mesh_shape_body_00.geometry} material={materials.body_00} rotation={[Math.PI / 2, 0, 0]} />
@@ -16,4 +16,4 @@ export default function 88(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/alolan/88.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/alolan/88.glb')

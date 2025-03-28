@@ -10,8 +10,8 @@ Title: Maushold from Pokémon Scarlet & Violet
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export default function 925(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/925.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/925.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.hands_f_maus_0.geometry} material={materials.f_maus} scale={0.01} />
@@ -21,4 +21,4 @@ export default function 925(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/925.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/925.glb')
