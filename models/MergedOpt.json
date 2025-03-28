@@ -13832,6 +13832,11 @@
           "name": "Shiny Falinks",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shiny/870.glb",
           "formName": "shiny"
+        },
+        {
+          "name": "Gmax Falinks",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/gmax/870.glb",
+          "formName": "gmax"
         }
       ]
     },

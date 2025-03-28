@@ -146,6 +146,11 @@
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/gmax/869.glb"
     },
     {
+      "id": 870,
+      "name": "Falinks",
+      "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/gmax/870.glb"
+    },
+    {
       "id": 879,
       "name": "Copperajah",
       "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/gmax/879.glb"
