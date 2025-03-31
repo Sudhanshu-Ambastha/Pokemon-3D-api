@@ -38,7 +38,7 @@ app.use((err, req, res, next) => {
     res.status(500).send('Something went wrong!');
 });
 
-app.get('/', (req, res) => {
+app.get('/in', (req, res) => {
     res.send(`
         Welcome to the Pokemon3D API!\n
         See the docs at https://documenter.getpostman.com/view/29725199/2sAYX8KMU8 for available endpoints.\n
