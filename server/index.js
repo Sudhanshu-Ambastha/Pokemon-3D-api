@@ -29,16 +29,16 @@ const limiter = rateLimit({
 
 app.use(ipfilter.IpFilter(blacklist, { mode: 'deny' }));
 
-app.use('/v1/', limiter);
+app.use('/in/v1/', limiter);
 
-app.use('/v1', router);
+app.use('/in/v1', router);
 
 app.use((err, req, res, next) => {
     console.error(err.stack);
     res.status(500).send('Something went wrong!');
 });
 
-app.get('/in', (req, res) => {
+app.get('/', (req, res) => {
     res.send(`
         Welcome to the Pokemon3D API!\n
         See the docs at https://documenter.getpostman.com/view/29725199/2sAYX8KMU8 for available endpoints.\n
@@ -47,7 +47,7 @@ app.get('/in', (req, res) => {
     `);
 });
 
-app.post('/admin/blacklist', express.json(), (req, res) => {
+app.post('/in/v1/admin/blacklist', express.json(), (req, res) => {
     const { ip, action } = req.body;
 
     if (!ip || !action || (action !== 'add' && action !== 'remove')) {
@@ -65,7 +65,7 @@ app.post('/admin/blacklist', express.json(), (req, res) => {
     res.json({ message: `IP ${ip} ${action}ed to blacklist` });
 });
 
-app.get('/admin/blacklist', (req, res) => {
+app.get('/in/v1/admin/blacklist', (req, res) => {
     res.json({ blacklist });
 });
 
