@@ -37,7 +37,7 @@ This section documents the backend API for serving Pokémon 3D model data. The A
 Example of fetching data with JavaScript:
 
 ```javascript
-fetch('https://pokemon3d-api.onrender.com/v1/pokemon') // Replace with your API URL
+fetch('https://pokemon3d-api.onrender.com/in/v1/pokemon') // Replace with your API URL
   .then(response => response.json())
   .then(data => {
     console.log(data);
@@ -59,13 +59,13 @@ node server.js
   - Body: `pong`
 
 ## Caching Details
-- The `/v1/pokemon` route uses NodeCache to cache the Pokémon data.
+- The `/in/v1/pokemon` route uses NodeCache to cache the Pokémon data.
 - TTL (Time To Live): 300 seconds (5 minutes).
 - Check Period: 120 seconds (2 minutes).
 - Cache Key: `pokemon-all`.
 
 ## Error Handling
-The `/v1/pokemon` route returns a `500 Internal Server Error with an error message` if there's an issue reading or parsing the `MergedOpt.json` file.
+The `/in/v1/pokemon` route returns a `500 Internal Server Error with an error message` if there's an issue reading or parsing the `MergedOpt.json` file.
 
 ## Rate Limiting
 - The API uses `express-rate-limit` to prevent abuse.
