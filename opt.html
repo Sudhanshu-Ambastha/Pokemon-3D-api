@@ -293,7 +293,7 @@
         };
 
         function fetchPokemonData() {
-            fetch('https://pokemon-3d-api.onrender.com/in/v1/pokemon')
+            fetch('https://pokemon-3d-api.onrender.com/v1/pokemon')
                 .then(res => res.json())
                 .then(data => {
                     allPokemon = data.pokemon || data;

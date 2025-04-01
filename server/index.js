@@ -29,9 +29,9 @@ const limiter = rateLimit({
 
 app.use(ipfilter.IpFilter(blacklist, { mode: 'deny' }));
 
-app.use('/in/v1/', limiter);
+app.use('/v1/', limiter);
 
-app.use('/in/v1', router);
+app.use('/v1', router);
 
 app.use((err, req, res, next) => {
     console.error(err.stack);
@@ -43,11 +43,11 @@ app.get('/', (req, res) => {
         Welcome to the Pokemon3D API!\n
         See the docs at https://documenter.getpostman.com/view/29725199/2sAYX8KMU8 for available endpoints.\n
         To see the available 3D models, visit the https://sudhanshu-ambastha.github.io/Pokemon-3D/.\n
-        else proceed to the /in/v1/pokemon endpoint to get the list of all pokemon.
+        else proceed to the /v1/pokemon endpoint to get the list of all pokemon.
     `);
 });
 
-app.post('/in/v1/admin/blacklist', express.json(), (req, res) => {
+app.post('/admin/blacklist', express.json(), (req, res) => {
     const { ip, action } = req.body;
 
     if (!ip || !action || (action !== 'add' && action !== 'remove')) {
@@ -65,7 +65,7 @@ app.post('/in/v1/admin/blacklist', express.json(), (req, res) => {
     res.json({ message: `IP ${ip} ${action}ed to blacklist` });
 });
 
-app.get('/in/v1/admin/blacklist', (req, res) => {
+app.get('/admin/blacklist', (req, res) => {
     res.json({ blacklist });
 });
 
