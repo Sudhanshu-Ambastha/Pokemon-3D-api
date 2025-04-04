@@ -211,6 +211,7 @@ This app supports various Pokémon forms and categories. Below is a breakdown of
 | **MegaShiny Evolutions** | 4         | 49        | Includes both single Mega forms and X/Y variants.                              |
 | **Hisuian Forms**   | 17            | 17        | Regional variants from *Pokémon Legends: Arceus*.                              |
 | **Alolan Forms**    | 12             | 18        | Regional variants introduced in *Pokémon Sun and Moon*.                        |
+| **Shiny Alolan Forms**  | 0          | 16        | Alternate color variants of the regional forms of Pokémon originally discovered in the Alola region |
 | **Galarian Forms**  | 11             | 20        | Regional variants from *Pokémon Sword and Shield*.                             |
 | **Primal Forms**    | 2             | 2         | Primal Groudon and Primal Kyogre.                                              |
 | **Unique Forms** | 4            | 4         | Ash's Greninja, Armoured Mewtwo, Eternamax Eternatus, Ultra Necrozma              |
