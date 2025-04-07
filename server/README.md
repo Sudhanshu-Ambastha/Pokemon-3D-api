@@ -3,8 +3,8 @@
 This section documents the backend API for serving Pokémon 3D model data. The API is built using Node.js with Express.js and serves data from a single JSON file (`MergedOpt.json`).
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=npm,nodejs,express,postman,githubactions" />
+  <a href="https://github.com/LelouchFR/skill-icons">
+    <img src="https://go-skill-icons.vercel.app/api/icons?i=npm,nodejs,express,postman,githubactions" />
   </a>
 </p>
 
