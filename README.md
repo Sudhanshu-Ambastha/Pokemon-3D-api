@@ -3,8 +3,8 @@
 Welcome to the **Pokémon 3D Model Viewer**! Explore a vast collection of Pokémon 3D models directly in your browser using interactive `<model-viewer>` previews. This project provides a JSON API to access URLs for these ready-to-use models, enabling seamless integration into your own web applications.
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,threejs,postman,githubactions" />
+  <a href="https://github.com/LelouchFR/skill-icons">
+    <img src="https://go-skill-icons.vercel.app/api/icons?i=html,css,js,threejs,postman,githubactions,api" />
   </a>
 </p>
 
