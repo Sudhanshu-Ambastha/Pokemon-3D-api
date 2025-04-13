@@ -91,6 +91,7 @@ fetch('https://pokemon-3d-api.onrender.com/v1/pokemon')
   .catch(error => console.error('Error fetching data:', error));
 ```
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Sudhanshu-Ambastha/Pokemon-3D-api/pulls)
 ## Contributing
 
 We welcome contributions from the community! You can help by:
