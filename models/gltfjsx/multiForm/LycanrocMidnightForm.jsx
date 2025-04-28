@@ -13,7 +13,7 @@ import { useGLTF } from '@react-three/drei'
 import { SkeletonUtils } from 'three-stdlib'
 
 export function Model(props) {
-  const { scene } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiform/LycanrocMidnightForm.glb')
+  const { scene } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiForm/LycanrocMidnightForm.glb')
   const clone = React.useMemo(() => SkeletonUtils.clone(scene), [scene])
   const { nodes, materials } = useGraph(clone)
   return (
@@ -27,4 +27,4 @@ export function Model(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiform/LycanrocMidnightForm.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiForm/LycanrocMidnightForm.glb')
