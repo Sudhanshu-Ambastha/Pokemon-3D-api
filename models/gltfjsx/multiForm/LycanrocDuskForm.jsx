@@ -11,7 +11,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiform/LycanrocDuskForm.glb')
+  const { nodes, materials } = useGLTF('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiForm/LycanrocDuskForm.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Object_5.geometry} material={materials.material_0} />
@@ -23,4 +23,4 @@ export function Model(props) {
   )
 }
 
-useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiform/LycanrocDuskForm.glb')
+useGLTF.preload('https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiForm/LycanrocDuskForm.glb')
