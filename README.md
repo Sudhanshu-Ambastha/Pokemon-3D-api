@@ -233,10 +233,7 @@ To verify whether a model contains animations or to inspect its structure, you c
 3. If the model contains animations, they will appear in a dropdown menu; otherwise, no animations will be shown.
 
 ## Credits
-Check [Credits.md](./docs/CREDITS.md) for a list of contributors and resources used in this project.  This project is a community-driven effort to provide a comprehensive and accessible 3D model database for Pokémon.  We appreciate the contributions of
-everyone who has helped make this project a reality.  If you have any questions or would like to
-contribute, please don't hesitate to reach out.  We're always happy to help and appreciate
-any assistance you can provide.  Thank you for your interest in this project!
+Check [Credits.md](./docs/CREDITS.md) for a list of contributors and resources used in this project.  This project is a community-driven effort to provide a comprehensive and accessible 3D model database for Pokémon.  We appreciate the contributions of everyone who has helped make this project a reality.  If you have any questions or would like to contribute, please don't hesitate to reach out.  We're always happy to help and appreciate any assistance you can provide.  Thank you for showing your interest in this project!
 
 ## License
 This project is open source and available under the [![GitHub License](https://img.shields.io/github/license/Sudhanshu-Ambastha/Pokemon-3D)](./docs/LICENSE). ![GitHub Tag](https://img.shields.io/github/v/tag/Sudhanshu-Ambastha/Pokemon-3D)
