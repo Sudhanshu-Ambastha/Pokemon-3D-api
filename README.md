@@ -2,7 +2,7 @@
 
 Welcome to the **Pokémon 3D Model Viewer**! Explore a vast collection of Pokémon 3D models directly in your browser using interactive `<model-viewer>` previews. This project provides a JSON API to access URLs for these ready-to-use models, enabling seamless integration into your own web applications.
 
-**See it in action!** Check out the [Pokedex - 3D Pokémon Viewer](https://sudhanshu-ambastha.github.io/Pokedex/) application, which utilizes this API to browse and interact with the 3D Pokémon models. It serves as a practical example of how you can use the data provided by this API.
+**See it in action!** Check out the [![Live App](https://img.shields.io/badge/Live-Pokedex%20Viewer-brightgreen)](https://sudhanshu-ambastha.github.io/Pokedex/) application, which utilizes this API to browse and interact with the 3D Pokémon models. It serves as a practical example of how you can use the data provided by this API.
 
 <p align="center">
   <a href="https://github.com/LelouchFR/skill-icons">
@@ -48,7 +48,7 @@ Welcome to the **Pokémon 3D Model Viewer**! Explore a vast collection of Pokém
 ---
 
 ## Using the API
-To fetch Pokémon data from this project for use in your own applications, you can consult the [documentation](https://documenter.getpostman.com/view/29725199/2sAYX8KMU8) or examine the provided [`opt.html`](./opt.html) file also shown in deployed site in optimized page tab. 
+To fetch Pokémon data from this project for use in your own applications, you can consult the [![Postman](https://img.shields.io/badge/Postman-Documentation-orange)](https://documenter.getpostman.com/view/29725199/2sAYX8KMU8) or examine the provided [`opt.html`](./opt.html) file also shown in deployed site in optimized page tab. 
 
 ### JSON Response Structure
 
@@ -233,14 +233,17 @@ To verify whether a model contains animations or to inspect its structure, you c
 3. If the model contains animations, they will appear in a dropdown menu; otherwise, no animations will be shown.
 
 ## Credits
-Check [Credits.md](./docs/CREDITS.md) for a list of contributors and resources used in this project.  This project is a community-driven effort to provide a comprehensive and accessible 3D model database for Pokémon.  We appreciate the contributions of everyone who has helped make this project a reality.  If you have any questions or would like to contribute, please don't hesitate to reach out.  We're always happy to help and appreciate any assistance you can provide.  Thank you for showing your interest in this project!
+Check [![Credits](https://img.shields.io/badge/Credits-See%20File-red)](./docs/CREDITS.md) for a list of contributors and resources used in this project.  This project is a community-driven effort to provide a comprehensive and accessible 3D model database for Pokémon.  We appreciate the contributions of
+everyone who has helped make this project a reality.  If you have any questions or would like to
+contribute, please don't hesitate to reach out.  We're always happy to help and appreciate
+any assistance you can provide.  Thank you for your interest in this project!
 
 ## License
-This project is open source and available under the [![GitHub License](https://img.shields.io/github/license/Sudhanshu-Ambastha/Pokemon-3D)](./docs/LICENSE). ![GitHub Tag](https://img.shields.io/github/v/tag/Sudhanshu-Ambastha/Pokemon-3D)
+This project is open source and available under the [![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/Sudhanshu-Ambastha/Pokemon-3D-api/blob/main/docs/LICENSE). ![GitHub Tag](https://img.shields.io/github/v/tag/Sudhanshu-Ambastha/Pokemon-3D)
 
 ## Legal Notice
 
-For more information about the legal considerations related to this project, please see the [COPYRIGHT.md](./docs/COPYRIGHT.md) file.
+For more information about the legal considerations related to this project, please see the [![Copyright](https://img.shields.io/badge/Copyright-See%20File-yellow)](./docs/COPYRIGHT.md) file.
 
 ### The Pokémon3D project community 
 Join our Discord: [![Join us on Discord](https://img.shields.io/discord/mycoolserver?label=Join%20us%20on%20Discord&logo=discord&style=social)](https://discord.gg/4JptVPw8qn)
