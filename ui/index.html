@@ -291,7 +291,7 @@
         };
 
         function fetchPokemonData() {
-            fetch('./models/Merged.json') 
+            fetch('../models/Merged.json') 
                 .then(res => res.json())
                 .then(data => {
                     allPokemon = data.pokemon; 

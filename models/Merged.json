@@ -10639,13 +10639,23 @@
       "id": 668,
       "forms": [
         {
-          "name": "Pyroar-Female",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/668.glb",
+          "name": "Pyroar",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/668-M.glb",
+          "formName": "regular"
+        },
+        {
+          "name": "Pyroar Female",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/668-F.glb",
           "formName": "regular"
         },
         {
           "name": "Shiny Pyroar",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/668.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/668-M.glb",
+          "formName": "shiny"
+        },
+        {
+          "name": "Shiny Pyroar",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/668-F.glb",
           "formName": "shiny"
         }
       ]
@@ -10654,12 +10664,12 @@
       "id": 669,
       "forms": [
         {
-          "name": "Flab\u00e9b\u00e9",
+          "name": "Flabébé",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/669.glb",
           "formName": "regular"
         },
         {
-          "name": "Shiny Flab\u00e9b\u00e9",
+          "name": "Shiny Flabébé",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/669.glb",
           "formName": "shiny"
         }
