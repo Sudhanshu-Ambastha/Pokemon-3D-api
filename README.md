@@ -239,7 +239,7 @@ contribute, please don't hesitate to reach out.  We're always happy to help and 
 any assistance you can provide.  Thank you for your interest in this project!
 
 ## License
-This project is open source and available under the [![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/Sudhanshu-Ambastha/Pokemon-3D-api/blob/main/docs/LICENSE). ![GitHub Tag](https://img.shields.io/github/v/tag/Sudhanshu-Ambastha/Pokemon-3D)
+This project is open source and available under the [![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/Sudhanshu-Ambastha/Pokemon-3D-api/blob/main/docs/LICENSE) for all versions up to ![GitHub Tag](https://img.shields.io/github/v/tag/Sudhanshu-Ambastha/Pokemon-3D)
 
 ## Legal Notice
 
