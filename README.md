@@ -211,8 +211,8 @@ This app supports various Pokémon forms and categories. Below is a breakdown of
 | **Regular Forms**   | 953            | 1028      | Standard Pokémon forms from Generations 1 to 9 including male & female.        |
 | **Shiny Forms**     | 105           | 1028      | Alternate color variants of all standard Pokémon.                              |
 | **Gigantamax**      | 10             | 32        | Special forms of select Pokémon with unique appearances in *Sword and Shield*. |
-| **Mega Evolutions** | 48             | 49        | Includes both single Mega forms and X/Y variants.                              |
-| **MegaShiny Evolutions** | 4         | 49        | Includes both single Mega forms and X/Y variants.                              |
+| **Mega Evolutions** | 49             | 49        | Includes both single Mega forms and X/Y variants.                              |
+| **MegaShiny Evolutions** | 5         | 49        | Includes both single Mega forms and X/Y variants.                              |
 | **Hisuian Forms**   | 17            | 17        | Regional variants from *Pokémon Legends: Arceus*.                              |
 | **Alolan Forms**    | 12             | 18        | Regional variants introduced in *Pokémon Sun and Moon*.                        |
 | **Shiny Alolan Forms**  | 0          | 16        | Alternate color variants of the regional forms of Pokémon originally discovered in the Alola region |
