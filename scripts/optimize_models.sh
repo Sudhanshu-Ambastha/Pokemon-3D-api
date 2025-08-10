@@ -36,6 +36,27 @@ find "$SRC_DIR" -type f -name "*.glb" | while read -r glb_file; do
   fi
 done
 
+# --- Part 2: Deletion of orphaned files ---
+echo "🗑️ Checking for orphaned optimized files to remove..."
+find "$DEST_DIR" -type f -name "*.glb" | while read -r opt_file; do
+  # Extract folder and filename
+  folder=$(dirname "${opt_file#$DEST_DIR/}")
+  filename=$(basename -- "$opt_file")
+  modelname="${filename%.glb}"
+  src_file="$SRC_DIR/$folder/$modelname.glb"
+
+  # Check if the original source file exists
+  if [ ! -f "$src_file" ]; then
+    echo "🗑️ Removing orphaned file: $opt_file"
+    rm "$opt_file"
+    # Remove empty directories after file deletion
+    dir_to_check=$(dirname "$opt_file")
+    if [ -z "$(ls -A "$dir_to_check")" ]; then
+      rmdir "$dir_to_check"
+    fi
+  fi
+done
+
 # Print the appropriate message
 if [ "$modified" = true ]; then
   if [ -s "$ERROR_FILE" ]; then

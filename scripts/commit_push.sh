@@ -2,7 +2,7 @@
 set -e  # Exit immediately if a command exits with a non-zero status
 
 # Define commit message
-COMMIT_MESSAGE="Auto-update🤖: Converted GLB to JSX and handled errors"
+COMMIT_MESSAGE="Auto-update🤖: Optimized models and handled errors"
 
 # 1) Configure a valid Git identity
 # This uses the GitHub Actions bot identity.
