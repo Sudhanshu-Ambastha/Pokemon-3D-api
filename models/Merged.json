@@ -15924,9 +15924,39 @@
           "formName": "regular"
         },
         {
+          "name": "Koraidon Combat",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiform/1007_c.glb",
+          "formName": "multiform"
+        },
+        {
+          "name": "Koraidon Aquatic",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiform/1007.glb",
+          "formName": "multiform"
+        },
+        {
+          "name": "Koraidon Drive",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiform/Koraidon_Drive.glb",
+          "formName": "multiform"
+        },
+        {
           "name": "Shiny Koraidon",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1007.glb",
           "formName": "shiny"
+        },
+        {
+          "name": "Shiny Koraidon Combat",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiShinyForm/1007_c.glb",
+          "formName": "multishinyform"
+        },
+        {
+          "name": "Shiny Koraidon Aquatic",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiShinyForm/Miraidon_Aquatic.glb",
+          "formName": "multiform"
+        },
+        {
+          "name": "Shiny Koraidon Drive",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiShinyForm/1007_d.glb",
+          "formName": "multiform"
         }
       ]
     },
@@ -15939,9 +15969,39 @@
           "formName": "regular"
         },
         {
+          "name": "Miraidon Combat",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiform/1008_c.glb",
+          "formName": "multiform"
+        },
+        {
+          "name": "Miraidon Aquatic",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiform/1008_a.glb",
+          "formName": "multiform"
+        },
+        {
+          "name": "Miraidon Drive",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiform/1008_d.glb",
+          "formName": "multiform"
+        },
+        {
           "name": "Shiny Miraidon",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1008.glb",
           "formName": "shiny"
+        },
+        {
+          "name": "Shiny Miraidon Combat",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiShinyForm/1008_c.glb",
+          "formName": "multishinyform"
+        },
+        {
+          "name": "Shiny Miraidon Aquatic",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiShinyForm/1008_a.glb",
+          "formName": "multishinyform"
+        },
+        {
+          "name": "Shiny Miraidon Drive",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/multiShinyForm/1008_d.glb",
+          "formName": "multishinyform"
         }
       ]
     },
