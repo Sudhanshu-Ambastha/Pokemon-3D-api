@@ -15930,7 +15930,7 @@
         },
         {
           "name": "Koraidon Combat",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/multiform/1007_c.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/multiform/Koraidon_Combat.glb",
           "formName": "multiform"
         },
         {
@@ -15950,7 +15950,7 @@
         },
         {
           "name": "Shiny Koraidon Combat",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/multiShinyForm/1007_c.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/multiShinyForm/Koraidon_Combat.glb",
           "formName": "multishinyform"
         },
         {
@@ -15960,7 +15960,7 @@
         },
         {
           "name": "Shiny Koraidon Drive",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/multiShinyForm/1007_d.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/multiShinyForm/Koraidon_Drive.glb",
           "formName": "multiform"
         }
       ]
@@ -16000,7 +16000,7 @@
         },
         {
           "name": "Shiny Miraidon Aquatic",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/multiShinyForm/1008_a.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/multiShinyForm/Miraidon_Aquatic.glb",
           "formName": "multishinyform"
         },
         {
