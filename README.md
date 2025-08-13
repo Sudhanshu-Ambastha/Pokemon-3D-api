@@ -6,7 +6,7 @@ Welcome to the **Pokémon 3D Model Viewer**! Explore a vast collection of Pokém
 
 <p align="center">
   <a href="https://github.com/LelouchFR/skill-icons">
-    <img src="https://go-skill-icons.vercel.app/api/icons?i=html,css,js,threejs,postman,githubactions,api,opensource" />
+    <img src="https://go-skill-icons.vercel.app/api/icons?i=html,css,js,modelviewer,threejs,postman,githubactions,api,opensource" />
   </a>
 </p>
 
