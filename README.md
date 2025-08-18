@@ -108,7 +108,7 @@ We welcome contributions from the community! You can help by:
 1. **Fork the Repository**: Fork the repo to your GitHub account.
 2. **Clone your Fork**: Clone your fork to your local machine.
     ```bash
-    git clone https://github.com/Sudhanshu-Ambastha/Pokemon-3D.git
+    git clone https://github.com/Sudhanshu-Ambastha/Pokemon-3D-api.git
     ```
 3. **Create a Branch**: Create a new branch for your feature or bug fix.
     ```bash
