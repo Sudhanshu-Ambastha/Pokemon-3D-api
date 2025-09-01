@@ -25,9 +25,8 @@ Welcome to the **Pokémon 3D Model Viewer**! Explore a vast collection of Pokém
   - [How to Add More Models](#how-to-add-more-models)
   - [Optimizing 3D Models](#optimizing-3d-models)
     - [CLI Command for Optimization](#cli-command-for-optimization)
-  - [Converting .glb Models to JSX Components](#converting-glb-models-to-jsx-components)
-    - [Steps to Convert `.glb` to `.jsx`](#steps-to-convert-glb-to-jsx)
   - [Pokémon Categories and Counts](#pokémon-categories-and-counts)
+  - [| **Origin Forms** | 3 | 3 | Origin Forms represent the true or primal state of certain legendary Pokémon, showcasing their full power and unique design. i.e  Giratina, and Dialga/Palkia.          |](#-origin-forms--3--3--origin-forms-represent-the-true-or-primal-state-of-certain-legendary-pokémon-showcasing-their-full-power-and-unique-design-ie--giratina-and-dialgapalkia----------)
   - [Note About APIs](#note-about-apis)
   - [Check Model Animations](#check-model-animations)
   - [Credits](#credits)
@@ -43,7 +42,6 @@ Welcome to the **Pokémon 3D Model Viewer**! Explore a vast collection of Pokém
 -   Access a JSON API for retrieving Pokémon 3D model URLs.
 -   Support for various Pokémon forms and categories.
 -   Instructions for adding and optimizing models.
--   Guidance on converting `.glb` models to `.jsx` components.
 
 ---
 
@@ -55,22 +53,23 @@ To fetch Pokémon data from this project for use in your own applications, you c
 The API returns an array of Pokémon objects. Each object contains an `id` and an array of `forms`.
 
 ```
-[
-  {
-    "id": 1,
-    "forms": [
-      {
-        "name": "Bulbasaur",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/1.glb",
-        "formName": "regular"
-      },
-      {
-        "name": "Shiny Bulbasaur",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1.glb",
-        "formName": "shiny"
-      }
-    ]
-  },
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "forms": [
+        {
+          "name": "Bulbasaur",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/1.glb",
+          "formName": "regular"
+        },
+        {
+          "name": "Shiny Bulbasaur",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shiny/1.glb",
+          "formName": "shiny"
+        }
+      ]
+    },
   // ... more Pokémon objects
 ]
 ```
