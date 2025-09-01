@@ -26,7 +26,6 @@ Welcome to the **Pokémon 3D Model Viewer**! Explore a vast collection of Pokém
   - [Optimizing 3D Models](#optimizing-3d-models)
     - [CLI Command for Optimization](#cli-command-for-optimization)
   - [Pokémon Categories and Counts](#pokémon-categories-and-counts)
-  - [| **Origin Forms** | 3 | 3 | Origin Forms represent the true or primal state of certain legendary Pokémon, showcasing their full power and unique design. i.e  Giratina, and Dialga/Palkia.          |](#-origin-forms--3--3--origin-forms-represent-the-true-or-primal-state-of-certain-legendary-pokémon-showcasing-their-full-power-and-unique-design-ie--giratina-and-dialgapalkia----------)
   - [Note About APIs](#note-about-apis)
   - [Check Model Animations](#check-model-animations)
   - [Credits](#credits)
