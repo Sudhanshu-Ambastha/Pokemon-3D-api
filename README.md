@@ -169,39 +169,6 @@ For more detailed information on using gltf-transform, refer to the official doc
     gltf-transform resize models/glb/regular/1.glb models/opt/regular/1.glb --width 1024 --height 1024 && gltf-transform optimize models/opt/regular/1.glb models/opt/regular/1.glb --compress draco --texture-compress webp
     ```
 
-## Converting .glb Models to JSX Components
-
-For developers using JSX/Next.js, working with `.glb` models directly can be challenging. Instead, we can convert `.glb` files to `.jsx` components, which makes rendering and interaction easier.
-
-### Steps to Convert `.glb` to `.jsx`
-
-1. **Install `gltfjsx`**  
-   First, install the required package globally or locally using npm:
-   ```bash
-   npm i gltfjsx
-   ```
-2. **Navigate to the Directory**
-   Move to the directory where your `.glb` file is stored:
-   ```
-   cd models/glb/
-   ```
-3. **Run the Conversion Command**
-   Use the following command to convert a `.glb` file into a `.jsx` component:
-   ```
-   npx gltfjsx 150.glb -o ../../gltfjsx/shadow/150.jsx
-   ```
-   - 150.glb → The input .glb file
-   - -o ../../gltfjsx/shadow/150.jsx → Output directory for the .jsx file
-4. **Ensuring Default Export** After conversion, make sure the generated `.jsx` file exports the model as a default component. 
-  If not, update the export statement at the end of the file:
-  ```
-  const  bulbasaur= (props) => {
-  ---Content leave as it is---
-  export default bulbasaur;
-  ```
-  This ensures that the component can be imported correctly without causing errors.
-
-
 ## Pokémon Categories and Counts
 This app supports various Pokémon forms and categories. Below is a breakdown of the available Pokémon models and their counts:
 
