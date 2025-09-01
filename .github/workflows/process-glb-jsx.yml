@@ -23,48 +23,8 @@ jobs:
       - name: Install glTF-Transform CLI
         run: npm install --global @gltf-transform/cli
 
-      - name: Create Logs Directory
-        run: mkdir -p logs
-
-      # - name: Detect Missing JSX Files
-      #   run: bash scripts/detect_missing.sh
-
       - name: Optimize GLB Models
         run: bash scripts/optimize_models.sh
-
-      # - name: Convert GLB Files to JSX
-      #   run: bash scripts/convert.sh
-
-      # - name: Update JSX Files
-      #   run: bash scripts/update_jsx.sh ${{ github.repository }} main
-
-      # - name: Handle Conversion Errors
-      #   run: bash scripts/handle_errors.sh
-
-      # - name: Cleanup Orphaned JSX Files
-      #   run: bash scripts/cleanup_orphan_jsx.sh
-
-      # - name: Setup Python
-      #   uses: actions/setup-python@v3
-      #   with:
-      #     python-version: "3.12"
-
-      # - name: Combine JSON Files
-      #   run: python scripts/merge_json.py
-
-      # - name: Generate models/index.js
-      #   run: bash scripts/generate-models-index.sh
-
-      # - name: Install Dependencies
-      #   run: npm ci
-
-      # - name: Build Package
-      #   run: cd package && npm run build
-
-      # - name: Publish Package
-      #   run: cd package && npm publish --access public
-      # env:
-      #   NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Commit and Push Changes
         env:
