@@ -38,23 +38,23 @@ This release introduces a major update to the Pokémon 3D API, including breakin
 **Important:** The API now returns Pokémon data in a new nested structure. Please update your applications to use the following JSON format:
 
 ```json
-[
-  {
-    "id": 1,
-    "forms": [
-      {
-        "name": "Bulbasaur",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/regular/1.glb",
-        "formName": "regular"
-      },
-      {
-        "name": "Shiny Bulbasaur",
-        "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/glb/shiny/1.glb",
-        "formName": "shiny"
-      }
-      // ... more forms
-    ]
-  },
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "forms": [
+        {
+          "name": "Bulbasaur",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/1.glb",
+          "formName": "regular"
+        },
+        {
+          "name": "Shiny Bulbasaur",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shiny/1.glb",
+          "formName": "shiny"
+        }
+      ]
+    },
   // ... more Pokémon objects
 ]
 ```
