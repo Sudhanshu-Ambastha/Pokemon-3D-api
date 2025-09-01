@@ -37,7 +37,7 @@ This section documents the backend API for serving Pokémon 3D model data. The A
 Example of fetching data with JavaScript:
 
 ```javascript
-fetch('https://pokemon3d-api.onrender.com/in/v1/pokemon') // Replace with your API URL
+fetch('https://pokemon-3d-api.onrender.com/v1/pokemon') // Replace with your API URL
   .then(response => response.json())
   .then(data => {
     console.log(data);
