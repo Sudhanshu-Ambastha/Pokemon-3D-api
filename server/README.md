@@ -4,7 +4,7 @@ This section documents the backend API for serving Pokémon 3D model data. The A
 
 <p align="center">
   <a href="https://github.com/LelouchFR/skill-icons">
-    <img src="https://go-skill-icons.vercel.app/api/icons?i=npm,nodejs,express,postman,githubactions" />
+    <img src="https://go-skill-icons.vercel.app/api/icons?i=npm,nodejs,express,postman"/>
   </a>
 </p>
 
