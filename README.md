@@ -59,12 +59,12 @@ The API returns an array of Pokémon objects. Each object contains an `id` and a
       "forms": [
         {
           "name": "Bulbasaur",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/regular/1.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/1.glb",
           "formName": "regular"
         },
         {
           "name": "Shiny Bulbasaur",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D/main/models/opt/shiny/1.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/1.glb",
           "formName": "shiny"
         }
       ]
