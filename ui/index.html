@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
@@ -221,15 +222,15 @@
                 right: 10px;
             }
         }
- 
     </style>
 </head>
+
 <body>
     <header>
-        <h1>Pokémon 3D Non-Optimized Model Viewer</h1>
+        <h1>Pokémon 3D Optimized Model Viewer</h1>
         <div class="nav-links">
-            <a href="#" class="active">Non-Optimized</a>
-            <a href="./opt.html">Optimized</a>
+            <a href="./index.html" class="active">Non-Optimized</a>
+            <a href="#">Optimized</a>
         </div>
     </header>
 
@@ -272,7 +273,13 @@
     <div id="modelModal">
         <div id="modalContent">
             <span class="close" onclick="closeModal()">❌</span>
-            <model-viewer id="modelViewerModal" camera-controls auto-rotate ar autoplay alt="Animated Pokémon Model" environment-image="neutral" style="width: 100%; height: 300px;"></model-viewer>
+            <div id="animationPicker" style="margin-bottom: 15px;">
+                <label for="animationSelector" style="font-weight: bold;">Select Animation:</label>
+                <select id="animationSelector"
+                    style="width: 100%; padding: 8px; border-radius: 4px; border: 1px solid #0a0a0a;"></select>
+            </div>
+            <model-viewer id="modelViewerModal" camera-controls auto-rotate ar autoplay alt="Animated Pokémon Model"
+                environment-image="neutral" style="width: 100%; height: 300px;"></model-viewer>
         </div>
     </div>
 
@@ -292,50 +299,62 @@
         };
 
         function fetchPokemonData() {
-            fetch('../models/Merged.json') 
-                .then(res => res.json())
+            fetch('../models/Merged.json')
+                .then(res => {
+                    if (!res.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return res.json();
+                })
                 .then(data => {
-                    allPokemon = data.pokemon; 
+                    allPokemon = data.pokemon || data;
                     filterAndRenderPokemon();
                 })
-                .catch(error => console.error('Error loading data:', error));
+                .catch(error => {
+                    console.error('Error loading data:', error);
+                    document.getElementById('pokedex').innerHTML = '<p>Error loading Pokémon data. Please check the API source or your network connection.</p>';
+                });
         }
 
         function filterAndRenderPokemon() {
             const genFilter = document.getElementById('generationFilter').value;
-            const searchInput = document.getElementById('searchInput').value.toLowerCase();
             const formFilter = document.getElementById('formFilter').value;
+            const searchInput = document.getElementById('searchInput').value.toLowerCase();
 
-            let filteredPokemon = allPokemon;
+            let filteredForms = [];
+            allPokemon.forEach(pokemon => {
+                if (genFilter !== 'all') {
+                    const [start, end] = generationRanges[genFilter];
+                    if (pokemon.id < start || pokemon.id > end) {
+                        return; 
+                    }
+                }
 
-            if (genFilter !== 'all') {
-                const [start, end] = generationRanges[genFilter];
-                filteredPokemon = filteredPokemon.filter(pokemon => pokemon.id >= start && pokemon.id <= end);
-            }
+                const matchingForms = pokemon.forms.filter(form => {
+                    const matchesFormFilter = formFilter === 'all' || form.formName === formFilter;
+                    const matchesSearch = form.name.toLowerCase().includes(searchInput) || pokemon.id.toString().includes(searchInput);
+                    return matchesFormFilter && matchesSearch;
+                });
 
-            if (searchInput) {
-                filteredPokemon = filteredPokemon.filter(pokemon =>
-                    pokemon.forms.some(form => form.name.toLowerCase().includes(searchInput)) || pokemon.id.toString().includes(searchInput)
-                );
-            }
+                matchingForms.forEach(form => {
+                    filteredForms.push({
+                        ...form,
+                        id: pokemon.id
+                    });
+                });
+            });
 
-            if (formFilter !== 'all') {
-                filteredPokemon = filteredPokemon.map(pokemon => {
-                    return {
-                        ...pokemon,
-                        forms: pokemon.forms.filter(form => form.formName === formFilter)
-                    };
-                }).filter(pokemon => pokemon.forms.length > 0)
-            }
-
-            filteredPokemon = filteredPokemon.flatMap(pokemon => pokemon.forms.map(form => ({...form, id: pokemon.id})))
-
-            renderPokedex(filteredPokemon);
+            renderPokedex(filteredForms);
         }
 
         function renderPokedex(pokemonList) {
             const pokedex = document.getElementById('pokedex');
             pokedex.innerHTML = '';
+
+            if (pokemonList.length === 0) {
+                pokedex.innerHTML = '<p>No Pokémon found matching your criteria.</p>';
+                return;
+            }
 
             pokemonList.forEach(pokemon => {
                 const card = document.createElement('div');
@@ -359,22 +378,62 @@
                 name.textContent = pokemon.name;
                 card.appendChild(name);
 
-                card.addEventListener('click', () => openModal(pokemon.model));
+                card.addEventListener('click', () => openModal(pokemon));
                 pokedex.appendChild(card);
             });
         }
 
-        function openModal(modelSrc) {
+        function openModal(pokemon) {
             const modal = document.getElementById('modelModal');
             const modelViewer = document.getElementById('modelViewerModal');
-            modelViewer.setAttribute('src', modelSrc);
+            const animationSelector = document.getElementById('animationSelector');
+            const animationPicker = document.getElementById('animationPicker');
+
+            animationPicker.style.display = 'block';
+
+            animationSelector.innerHTML = '';
+
+            modelViewer.setAttribute('src', pokemon.model);
+
+            modelViewer.addEventListener('load', () => {
+                const availableAnims = modelViewer.availableAnimations;
+
+                if (availableAnims && availableAnims.length > 0) {
+                    availableAnims.forEach(anim => {
+                        const option = document.createElement('option');
+                        option.value = anim;
+                        option.textContent = anim;
+                        animationSelector.appendChild(option);
+                    });
+                    modelViewer.setAttribute('animation-name', availableAnims[0]);
+                } else {
+                    const option = document.createElement('option');
+                    option.textContent = 'No animations available';
+                    option.disabled = true;
+                    animationSelector.appendChild(option);
+                    modelViewer.removeAttribute('animation-name');
+                }
+            }, { once: true });
+
             modal.style.display = 'block';
         }
 
         function closeModal() {
             const modal = document.getElementById('modelModal');
             modal.style.display = 'none';
+            const modelViewer = document.getElementById('modelViewerModal');
+            modelViewer.pause();
         }
+
+        document.getElementById('animationSelector').addEventListener('change', (event) => {
+            const modelViewer = document.getElementById('modelViewerModal');
+            const selectedAnimation = event.target.value;
+            if (selectedAnimation) {
+                modelViewer.setAttribute('animation-name', selectedAnimation);
+            } else {
+                modelViewer.removeAttribute('animation-name');
+            }
+        });
 
         document.getElementById('formFilter').addEventListener('change', filterAndRenderPokemon);
         document.getElementById('generationFilter').addEventListener('change', filterAndRenderPokemon);
@@ -384,4 +443,5 @@
         fetchPokemonData();
     </script>
 </body>
+
 </html>
