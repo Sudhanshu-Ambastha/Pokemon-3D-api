@@ -2,7 +2,7 @@
 
 Welcome to the **Pokémon 3D Model Viewer**! Explore a vast collection of Pokémon 3D models directly in your browser using interactive `<model-viewer>` previews. This project provides a JSON API to access URLs for these ready-to-use models, enabling seamless integration into your own web applications.
 
-**See it in action!** Check out the [![Live App 1](https://img.shields.io/badge/Live-Pokedex%20Viewer%201-brightgreen)](https://sudhanshu-ambastha.github.io/Pokedex/), [![Live App 2](https://img.shields.io/badge/Live-Pokedex%20Viewer%202-brightgreen)](https://pokemon3dapi.oneapp.dev/) application, which utilizes this API to browse and interact with the 3D Pokémon models. It serves as a practical example of how you can use the data provided by this API.
+**See it in action!** Check out the [![Live App 1](https://img.shields.io/badge/Live-Pokedex%20Viewer%201-brightgreen)](https://sudhanshu-ambastha.github.io/Pokedex/), [![Live App 2](https://img.shields.io/badge/Live-Pokedex%20Viewer%202-brightgreen)](https://pokemon-3d-api.oneapp.dev/) application, which utilizes this API to browse and interact with the 3D Pokémon models. It serves as a practical example of how you can use the data provided by this API.
 
 <p align="center">
   <a href="https://github.com/LelouchFR/skill-icons">
