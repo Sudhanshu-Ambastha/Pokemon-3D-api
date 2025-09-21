@@ -39,19 +39,24 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Venusaur",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/3.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Venusaur",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/3.glb",
           "formName": "mega"
         },
         {
-          "name": "Gmax Venusaur",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/3.glb",
-          "formName": "gmax"
+          "name": "Mega Shiny Venusaur",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/3.glb",
+          "formName": "megaShiny"
         },
         {
-          "name": "Shiny Venusaur",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/3.glb",
-          "formName": "shiny"
+          "name": "Venusaur",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/3.glb",
+          "formName": "gmax"
         }
       ]
     },
@@ -94,9 +99,9 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Charizard",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/6.glb",
-          "formName": "gmax"
+          "name": "Shiny Charizard",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/6.glb",
+          "formName": "shiny"
         },
         {
           "name": "Mega Charizard X",
@@ -104,14 +109,24 @@
           "formName": "xy"
         },
         {
+          "name": "Mega Shiny Charizard X",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/sx/6.glb",
+          "formName": "sxy"
+        },
+        {
           "name": "Mega Charizard Y",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/y/6.glb",
           "formName": "xy"
         },
         {
-          "name": "Shiny Charizard",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/6.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Charizard Y",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/sy/6.glb",
+          "formName": "sxy"
+        },
+        {
+          "name": "Gmax Charizard",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/6.glb",
+          "formName": "gmax"
         }
       ]
     },
@@ -154,9 +169,9 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Blastoise",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/9.glb",
-          "formName": "gmax"
+          "name": "Shiny Blastoise",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/9.glb",
+          "formName": "shiny"
         },
         {
           "name": "Mega Blastoise Y",
@@ -164,9 +179,14 @@
           "formName": "xy"
         },
         {
-          "name": "Shiny Blastoise",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/9.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Blastoise Y",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/sy/9.glb",
+          "formName": "sxy"
+        },
+        {
+          "name": "Gmax Blastoise",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/9.glb",
+          "formName": "gmax"
         }
       ]
     },
@@ -209,7 +229,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Butterfree",
+          "name": "Butterfree",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/12.glb",
           "formName": "gmax"
         },
@@ -259,14 +279,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Beedrill",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/15.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Beedrill",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/15.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Beedrill",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/15.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Beedrill",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/15.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -309,14 +334,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Pidgeot",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/18.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Pidgeot",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/18.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Pidgeot",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/18.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Pidgeot",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/18.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -429,7 +459,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Pikachu",
+          "name": "Pikachu",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/25.glb",
           "formName": "gmax"
         },
@@ -874,7 +904,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Meowth",
+          "name": "Meowth",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/52.glb",
           "formName": "gmax"
         },
@@ -1104,14 +1134,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Alakazam",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/65.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Alakazam",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/65.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Alakazam",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/65.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Alakazam",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/65.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -1154,7 +1189,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Machamp",
+          "name": "Machamp",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/68.glb",
           "formName": "gmax"
         },
@@ -1369,9 +1404,9 @@
           "formName": "regular"
         },
         {
-          "name": "Mega Slowbro",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/80.glb",
-          "formName": "mega"
+          "name": "Shiny Slowbro",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/80.glb",
+          "formName": "shiny"
         },
         {
           "name": "Galarian Slowbro",
@@ -1379,9 +1414,14 @@
           "formName": "galar"
         },
         {
-          "name": "Shiny Slowbro",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/80.glb",
-          "formName": "shiny"
+          "name": "Mega Slowbro",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/80.glb",
+          "formName": "mega"
+        },
+        {
+          "name": "Mega Shiny Slowbro",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/80.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -1604,19 +1644,24 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Gengar",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/94.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Gengar",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/94.glb",
           "formName": "mega"
         },
         {
+          "name": "Mega Shiny Gengar",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/94.glb",
+          "formName": "megaShiny"
+        },
+        {
           "name": "Gmax Gengar",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/94.glb",
           "formName": "gmax"
-        },
-        {
-          "name": "Shiny Gengar",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/94.glb",
-          "formName": "shiny"
         }
       ]
     },
@@ -1689,7 +1734,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Kingler",
+          "name": "Kingler",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/99.glb",
           "formName": "gmax"
         },
@@ -1959,14 +2004,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Kangaskhan",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/115.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Kangaskhan",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/115.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Kangaskhan",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/115.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Kangaskhan",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/115.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -2149,14 +2199,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Pinsir",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/127.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Pinsir",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/127.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Pinsir",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/127.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Pinsir",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/127.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -2214,14 +2269,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Gyarados",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/130.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Gyarados",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/130.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Gyarados",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/130.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Gyarados",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/130.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -2234,7 +2294,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Lapras",
+          "name": "Lapras",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/131.glb",
           "formName": "gmax"
         },
@@ -2269,7 +2329,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Eevee",
+          "name": "Eevee",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/133.glb",
           "formName": "gmax"
         },
@@ -2409,14 +2469,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Aerodactyl",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/142.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Aerodactyl",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/142.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Aerodactyl",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/142.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Aerodactyl",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/142.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -2429,7 +2494,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Snorlax",
+          "name": "Snorlax",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/143.glb",
           "formName": "gmax"
         },
@@ -2539,6 +2604,11 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Mewtwo",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/150.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Armoured Mewtwo",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/unique/150.glb",
           "formName": "unique"
@@ -2549,14 +2619,19 @@
           "formName": "xy"
         },
         {
-          "name": "Mega Mewtwo Y",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/y/150.glb",
-          "formName": "xy"
+          "name": "Mega Shiny Mewtwo X",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/sx/150.glb",
+          "formName": "sxy"
         },
         {
-          "name": "Shiny Mewtwo",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/150.glb",
-          "formName": "shiny"
+          "name": "Mega Mewtwo Y",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/y/150.glb",
+          "formName": "sxy"
+        },
+        {
+          "name": "Mega Shiny Mewtwo Y",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/sy/150.glb",
+          "formName": "sxy"
         }
       ]
     },
@@ -3024,14 +3099,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Ampharos",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/181.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Ampharos",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/181.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Ampharos",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/181.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Ampharos",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/181.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -3299,7 +3379,7 @@
           "formName": "regular"
         },
         {
-          "name": "Galarian SLowking",
+          "name": "Galarian Slowking",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/galar/199.glb",
           "formName": "galar"
         },
@@ -3439,14 +3519,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Steelix",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/208.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Steelix",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/208.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Steelix",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/208.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Steelix",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/208.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -3509,14 +3594,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Scizor",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/212.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Scizor",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/212.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Scizor",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/212.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Scizor",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/212.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -3544,14 +3634,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Heracross",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/214.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Heracross",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/214.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Heracross",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/214.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Heracross",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/214.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -3784,14 +3879,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Houndoom",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/229.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Houndoom",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/229.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Houndoom",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/229.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Houndoom",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/229.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -4074,14 +4174,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Tyranitar",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/248.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Tyranitar",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/248.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Tyranitar",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/248.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Tyranitar",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/248.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -4169,14 +4274,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Sceptile",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/254.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Sceptile",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/254.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Sceptile",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/254.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Sceptile",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/254.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -4219,14 +4329,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Blaziken",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/257.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Blaziken",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/257.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Blaziken",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/257.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Blaziken",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/257.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -4269,14 +4384,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Swampert",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/260.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Swampert",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/260.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Swampert",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/260.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Swampert",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/260.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -4359,7 +4479,7 @@
           "formName": "regular"
         },
         {
-          "name": "Shiny Wurmple",
+          "name": "Shiny Wrumple",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/265.glb",
           "formName": "shiny"
         }
@@ -4614,14 +4734,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Gardevoir",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/282.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Gardevoir",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/282.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Gardevoir",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/282.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Gardevoir",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/282.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -4919,14 +5044,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Sableye",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/302.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Sableye",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/302.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Sableye",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/302.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Sableye",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/302.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -4939,14 +5069,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Mawile",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/303.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Mawile",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/303.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Mawile",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/303.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Mawile",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/303.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -4989,14 +5124,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Aggron",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/306.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Aggron",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/306.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Aggron",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/306.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Aggron",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/306.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -5024,14 +5164,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Medicham",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/308.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Medicham",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/308.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Medicham",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/308.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Medicham",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/308.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -5059,14 +5204,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Manectric",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/310.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Manectric",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/310.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Manectric",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/310.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Manectric",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/310.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -5199,14 +5349,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Sharpedo",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/319.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Sharpedo",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/319.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Sharpedo",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/319.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Sharpedo",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/319.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -5264,14 +5419,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Camerupt",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/323.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Camerupt",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/323.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Camerupt",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/323.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Camerupt",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/323.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -5434,14 +5594,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Altaria",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/334.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Altaria",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/334.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Altaria",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/334.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Altaria",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/334.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -5544,7 +5709,7 @@
           "formName": "regular"
         },
         {
-          "name": "Shiny Corphish",
+          "name": "Shiny Carphish",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/341.glb",
           "formName": "shiny"
         }
@@ -5739,14 +5904,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Banette",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/354.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Banette",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/354.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Banette",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/354.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Banette",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/354.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -5819,14 +5989,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Absol",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/359.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Absol",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/359.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Absol",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/359.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Absol",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/359.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -5869,14 +6044,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Glalie",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/362.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Glalie",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/362.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Glalie",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/362.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Glalie",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/362.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -6024,7 +6204,7 @@
           "formName": "regular"
         },
         {
-          "name": "Shiny Shelgon",
+          "name": "Shiny Sheldon",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/372.glb",
           "formName": "shiny"
         }
@@ -6039,14 +6219,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Salamance",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/373.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Salamence",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/373.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Salamance",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/373.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Salamence",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/373.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -6089,14 +6274,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Metagross",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/376.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Metagross",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/376.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Metagross",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/376.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Metagross",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/376.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -6154,14 +6344,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Latias",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/380.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Latias",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/380.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Latias",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/380.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Latias",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/380.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -6174,14 +6369,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Latios",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/381.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Latios",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/381.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Latios",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/381.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Latios",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/381.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -6234,14 +6434,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Rayquaza",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/384.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Rayquaza",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/384.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Rayquaza",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/384.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Rayquaza",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/384.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -6914,14 +7119,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Lopunny",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/428.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Lopunny",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/428.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Lopunny",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/428.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Lopunny",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/428.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -7174,14 +7384,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Garchomp",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/445.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Garchomp",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/445.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Garchomp",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/445.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Garchomp",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/445.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -7224,14 +7439,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Lucario",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/448.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Lucario",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/448.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Lucario",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/448.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Lucario",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/448.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -7409,14 +7629,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Abomasnow",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/460.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Abomasnow",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/460.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Abomasnow",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/460.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Abomasnow",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/460.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -7639,14 +7864,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Gallade",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/475.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Gallade",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/475.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Gallade",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/475.glb",
-          "formName": "shiny"
+          "name": "Mega Shiny Gallade",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/megaShiny/475.glb",
+          "formName": "megaShiny"
         }
       ]
     },
@@ -8379,12 +8609,7 @@
           "formName": "regular"
         },
         {
-          "name": "Shiny Unfezant-Male",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/521.glb",
-          "formName": "shiny"
-        },
-        {
-          "name": "Shiny Unfezant-Female",
+          "name": "Shiny Unfezant",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/521.glb",
           "formName": "shiny"
         }
@@ -8534,14 +8759,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Audino",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/531.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Audino",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/531.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Audino",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/531.glb",
-          "formName": "shiny"
+          "name": "Shiny Mega Audino",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny-mega/531.glb",
+          "formName": "shiny-mega"
         }
       ]
     },
@@ -9134,7 +9364,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Garbodor",
+          "name": "Garbodor",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/569.glb",
           "formName": "gmax"
         },
@@ -10669,12 +10899,12 @@
       "id": 669,
       "forms": [
         {
-          "name": "Flab\u00e9b\u00e9",
+          "name": "Flabébé",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/669.glb",
           "formName": "regular"
         },
         {
-          "name": "Shiny Flab\u00e9b\u00e9",
+          "name": "Shiny Flabébé",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/669.glb",
           "formName": "shiny"
         }
@@ -11444,14 +11674,19 @@
           "formName": "regular"
         },
         {
+          "name": "Shiny Diancie",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/719.glb",
+          "formName": "shiny"
+        },
+        {
           "name": "Mega Diancie",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/mega/719.glb",
           "formName": "mega"
         },
         {
-          "name": "Shiny Diancie",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/719.glb",
-          "formName": "shiny"
+          "name": "Shiny Mega Diancie",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny-mega/719.glb",
+          "formName": "shiny-mega"
         }
       ]
     },
@@ -12824,7 +13059,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Melmetal",
+          "name": "Melmetal",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/809.glb",
           "formName": "gmax"
         },
@@ -12874,7 +13109,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Rillaboom",
+          "name": "Rillaboom",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/812.glb",
           "formName": "gmax"
         },
@@ -12924,7 +13159,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Cinderace",
+          "name": "Cinderace",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/815.glb",
           "formName": "gmax"
         },
@@ -12974,7 +13209,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Inteleon",
+          "name": "Inteleon",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/818.glb",
           "formName": "gmax"
         },
@@ -13054,7 +13289,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Corviknight",
+          "name": "Corviknight",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/823.glb",
           "formName": "gmax"
         },
@@ -13104,7 +13339,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Orbeetle",
+          "name": "Orbeetle",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/826.glb",
           "formName": "gmax"
         },
@@ -13229,7 +13464,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Drednaw",
+          "name": "Drednaw",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/834.glb",
           "formName": "gmax"
         },
@@ -13309,7 +13544,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Coalossal",
+          "name": "Coalossal",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/839.glb",
           "formName": "gmax"
         },
@@ -13344,7 +13579,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Flapple",
+          "name": "Flapple",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/841.glb",
           "formName": "gmax"
         },
@@ -13364,7 +13599,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Appletun",
+          "name": "Appletun",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/842.glb",
           "formName": "gmax"
         },
@@ -13399,7 +13634,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Sandaconda",
+          "name": "Sandaconda",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/844.glb",
           "formName": "gmax"
         },
@@ -13479,7 +13714,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Toxtricity",
+          "name": "Toxtricity",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/849.glb",
           "formName": "gmax"
         },
@@ -13514,7 +13749,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Centiskorch",
+          "name": "Centiskorch",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/851.glb",
           "formName": "gmax"
         },
@@ -13624,7 +13859,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Hatterene",
+          "name": "Hatterene",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/858.glb",
           "formName": "gmax"
         },
@@ -13674,7 +13909,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Grimmsnarl",
+          "name": "Grimmsnarl",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/861.glb",
           "formName": "gmax"
         },
@@ -13814,7 +14049,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Alcremie",
+          "name": "Alcremie",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/869.glb",
           "formName": "gmax"
         },
@@ -13974,7 +14209,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Copperajah",
+          "name": "Copperajah",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/879.glb",
           "formName": "gmax"
         },
@@ -14054,7 +14289,7 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Duraludon",
+          "name": "Duraludon",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/884.glb",
           "formName": "gmax"
         },
@@ -14184,7 +14419,12 @@
           "formName": "regular"
         },
         {
-          "name": "Gmax Urshifu",
+          "name": "Urshifu",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/892.glb",
+          "formName": "gmax"
+        },
+        {
+          "name": "Urshifu",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/892.glb",
           "formName": "gmax"
         },
@@ -14559,12 +14799,7 @@
           "formName": "regular"
         },
         {
-          "name": "Shiny Oinkologne-Male",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/916.glb",
-          "formName": "shiny"
-        },
-        {
-          "name": "Shiny Oinkologne-Female",
+          "name": "Shiny Oinkologne",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/916.glb",
           "formName": "shiny"
         }
@@ -15955,7 +16190,7 @@
         },
         {
           "name": "Shiny Koraidon Aquatic",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiShinyForm/1007_a.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiShinyForm/1007_b.glb",
           "formName": "multiform"
         },
         {
