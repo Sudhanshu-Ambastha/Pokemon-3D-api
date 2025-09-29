@@ -6484,14 +6484,29 @@
           "formName": "multiform"
         },
         {
+          "name": "Deoxys Attack Form",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiShinyForm/Deoxys_Attack_Form.glb",
+          "formName": "multishinyform"
+        },
+        {
           "name": "Deoxys Defense Form",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiform/386.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiform/Deoxys_Defense_Form.glb",
+          "formName": "multiform"
+        },
+        {
+          "name": "Deoxys Defense Form",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiShinyForm/Deoxys_Defense_Form.glb",
+          "formName": "multishinyform"
+        },
+        {
+          "name": "Deoxys Speed Form",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiform/Deoxys_Speed_Form.glb",
           "formName": "multiform"
         },
         {
           "name": "Deoxys Speed Form",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiform/386.glb",
-          "formName": "multiform"
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiShinyForm/Deoxys_Speed_Form.glb",
+          "formName": "multishinyform"
         }
       ]
     },
@@ -14144,14 +14159,24 @@
       "id": 875,
       "forms": [
         {
-          "name": "Eiscue",
+          "name": "Eiscue (Ice Face)",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/875.glb",
           "formName": "regular"
         },
         {
-          "name": "Shiny Eiscue",
+          "name": "Eiscue (Noice Face)",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiform/875.glb",
+          "formName": "multiform"
+        },
+        {
+          "name": "Shiny Eiscue (Ice Face)",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/875.glb",
           "formName": "shiny"
+        },
+        {
+          "name": "Shiny Eiscue (Noice Face)",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiShinyForm/875.glb",
+          "formName": "multishinyform"
         }
       ]
     },
