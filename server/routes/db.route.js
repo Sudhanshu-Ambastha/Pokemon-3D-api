@@ -16,11 +16,11 @@ async function getPokemonData() {
     }
 
     try {
-        const filePath = path.join(__dirname, 'data', '../../models/MergedOpt.json');
+        const filePath = path.join(__dirname, 'models', 'opt', 'MergedOpt.json');
         const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
-        cache.set(cacheKey, jsonData.pokemon);
-        return jsonData.pokemon;
+        cache.set(cacheKey, jsonData.pokemon || jsonData); 
+        return jsonData.pokemon || jsonData;
 
     } catch (error) {
         console.error('Error fetching Pokemon:', error);
