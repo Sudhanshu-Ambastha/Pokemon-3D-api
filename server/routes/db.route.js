@@ -2,10 +2,14 @@ import express from 'express';
 import NodeCache from 'node-cache';
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url'; 
+const __filename = fileURLToPath(import.meta.url);
+const currentDir = path.dirname(__filename);
 
 const router = express.Router();
 const cache = new NodeCache({ stdTTL: 300, checkperiod: 120 });
 const __dirname = path.resolve();
+
 
 async function getPokemonData() {
     const cacheKey = `pokemon-all`;
@@ -16,10 +20,10 @@ async function getPokemonData() {
     }
 
     try {
-        const filePath = path.join(__dirname, 'models', 'opt', 'MergedOpt.json');
+        const filePath = path.join(currentDir, '..', '..', 'models', 'opt', 'MergedOpt.json');
         const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
-        cache.set(cacheKey, jsonData.pokemon || jsonData); 
+        cache.set(cacheKey, jsonData.pokemon || jsonData);
         return jsonData.pokemon || jsonData;
 
     } catch (error) {
