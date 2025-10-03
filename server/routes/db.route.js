@@ -2,13 +2,14 @@ import express from 'express';
 import NodeCache from 'node-cache';
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url'; 
-const __filename = fileURLToPath(import.meta.url);
-const currentDir = path.dirname(__filename);
+import { fileURLToPath } from 'url';
+
+const projectRoot = path.resolve();
+const __filename = fileURLToPath(import.meta.url); 
+const currentDir = path.dirname(__filename); 
 
 const router = express.Router();
 const cache = new NodeCache({ stdTTL: 300, checkperiod: 120 });
-const __dirname = path.resolve();
 
 
 async function getPokemonData() {
@@ -20,7 +21,7 @@ async function getPokemonData() {
     }
 
     try {
-        const filePath = path.join(currentDir, '..', '..', 'models', 'opt', 'MergedOpt.json');
+        const filePath = path.join(projectRoot, 'models', 'opt', 'MergedOpt.json');
         const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
         cache.set(cacheKey, jsonData.pokemon || jsonData);
@@ -28,6 +29,7 @@ async function getPokemonData() {
 
     } catch (error) {
         console.error('Error fetching Pokemon:', error);
+        console.error('Failed path attempt:', filePath); 
         throw new Error(`Failed to fetch Pokemon: ${error.message}`);
     }
 }
