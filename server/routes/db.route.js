@@ -20,8 +20,9 @@ async function getPokemonData() {
         return cachedData;
     }
 
+    let filePath; 
     try {
-        const filePath = path.join(projectRoot, 'models', 'opt', 'MergedOpt.json');
+        filePath = path.join(projectRoot, 'models', 'opt', 'MergedOpt.json');
         const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
         cache.set(cacheKey, jsonData.pokemon || jsonData);
