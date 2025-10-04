@@ -10569,9 +10569,19 @@
           "formName": "fusion"
         },
         {
+          "name": "Shiny Black Kyurem",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/fusionShiny/Black_Kyurem.glb",
+          "formName": "fusionShiny"
+        },
+        {
           "name": "White Kyurem",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/fusion/White_Kyurem.glb",
           "formName": "fusion"
+        },
+        {
+          "name": "Shiny White Kyurem",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/fusionShiny/White_Kyurem.glb",
+          "formName": "fusionShiny"
         }
       ]
     },
@@ -12959,9 +12969,19 @@
           "formName": "fusion"
         },
         {
+          "name": "Shiny Necrozma (Dusk Mane)",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/fusionShiny/Dusk_Mane.glb",
+          "formName": "fusionShiny"
+        },
+        {
           "name": "Necrozma (Dawn Wings)",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/fusion/Dawn_Wings.glb",
           "formName": "fusion"
+        },
+        {
+          "name": "Shiny Necrozma (Dawn Wings)",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/fusionShiny/Dawn_Wings.glb",
+          "formName": "fusionShiny"
         }
       ]
     },
@@ -14574,9 +14594,19 @@
           "formName": "fusion"
         },
         {
+          "name": "Shiny Calyrex (Ice Rider)",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/fusionShiny/Ice_Rider.glb",
+          "formName": "fusionShiny"
+        },
+        {
           "name": "Calyrex (Shadow Rider)",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/fusion/Shadow_Rider.glb",
           "formName": "fusion"
+        },
+        {
+          "name": "Shiny Calyrex (Shadow Rider)",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/fusionShiny/Shadow_Rider.glb",
+          "formName": "fusionShiny"
         }
       ]
     },
