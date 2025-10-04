@@ -42,7 +42,7 @@ app.get('/', (req, res) => {
     res.send(`
         Welcome to the Pokemon3D API!\n
         See the docs at https://documenter.getpostman.com/view/29725199/2sAYX8KMU8 for available endpoints.\n
-        To see the available 3D models, visit the https://sudhanshu-ambastha.github.io/Pokemon-3D/.\n
+        To see the available 3D models, visit the https://sudhanshu-ambastha.github.io/Pokemon-3D-api/.\n
         else proceed to the /v1/pokemon endpoint to get the list of all pokemon.
     `);
 });
