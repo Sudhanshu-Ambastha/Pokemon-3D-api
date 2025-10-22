@@ -16572,6 +16572,16 @@
           "name": "Shiny Terapagos",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/shiny/1024.glb",
           "formName": "shiny"
+        },
+        {
+          "name": "Terapagos Stellar Form",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiform/TerapagosStellar.glb",
+          "formName": "regular"
+        },
+        {
+          "name": "Shiny Terapagos Stellar Form",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiShinyForm/TerapagosStellar.glb",
+          "formName": "shiny"
         }
       ]
     },
