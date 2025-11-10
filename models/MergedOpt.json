@@ -11684,19 +11684,44 @@
       "id": 718,
       "forms": [
         {
-          "name": "Zygarde (50% form)",
+          "name": "Zygarde Cell",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/718.glb",
           "formName": "regular"
         },
         {
-          "name": "Shiny Zygarde (50% form)",
+          "name": "Shiny Zygarde Cell",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/718.glb",
           "formName": "shiny"
         },
         {
-          "name": "Zygarde Cell",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiform/718.glb",
+          "name": "Zygarde (10% form)",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiform/718_1.glb",
           "formName": "multiform"
+        },
+        {
+          "name": "Shiny Zygarde (10% form)",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiShinyForm/718_1.glb",
+          "formName": "multiShinyform"
+        },
+        {
+          "name": "Zygarde (50% form)",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiform/718_2.glb",
+          "formName": "multiform"
+        },
+        {
+          "name": "Shiny Zygarde (50% form)",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiShinyForm/718_2.glb",
+          "formName": "multiShinyform"
+        },
+        {
+          "name": "Zygarde (100% form)",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiform/718_3.glb",
+          "formName": "multiform"
+        },
+        {
+          "name": "Shiny Zygarde (100% form)",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiShinyForm/718_3.glb",
+          "formName": "multiShinyform"
         }
       ]
     },

@@ -6470,17 +6470,17 @@
       "forms": [
         {
           "name": "Deoxys",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/regular/386.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/regular/386.glb",
           "formName": "regular"
         },
         {
           "name": "Shiny Deoxys",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/shiny/386.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/shiny/386.glb",
           "formName": "shiny"
         },
         {
           "name": "Deoxys Attack Form",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiform/386.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiform/386.glb",
           "formName": "multiform"
         },
         {
@@ -11684,19 +11684,44 @@
       "id": 718,
       "forms": [
         {
-          "name": "Zygarde (50% form)",
+          "name": "Zygarde Cell",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/regular/718.glb",
           "formName": "regular"
         },
         {
-          "name": "Shiny Zygarde (50% form)",
+          "name": "Shiny Zygarde Cell",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/shiny/718.glb",
           "formName": "shiny"
         },
         {
-          "name": "Zygarde Cell",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiform/718.glb",
+          "name": "Zygarde (10% form)",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiform/718_1.glb",
           "formName": "multiform"
+        },
+        {
+          "name": "Shiny Zygarde (10% form)",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiShinyForm/718_1.glb",
+          "formName": "multiform"
+        },
+        {
+          "name": "Zygarde (50% form)",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiform/718_2.glb",
+          "formName": "multiform"
+        },
+        {
+          "name": "Shiny Zygarde (50% form)",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiShinyForm/718_2.glb",
+          "formName": "multishinyform"
+        },
+        {
+          "name": "Zygarde (100% form)",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiform/718_3.glb",
+          "formName": "multiform"
+        },
+        {
+          "name": "Shiny Zygarde (100% form)",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiShinyForm/718_3.glb",
+          "formName": "multishinyform"
         }
       ]
     },
@@ -16575,12 +16600,12 @@
         },
         {
           "name": "Terapagos Stellar Form",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiform/TerapagosStellar.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiform/TerapagosStellar.glb",
           "formName": "regular"
         },
         {
           "name": "Shiny Terapagos Stellar Form",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/multiShinyForm/TerapagosStellar.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiShinyForm/TerapagosStellar.glb",
           "formName": "shiny"
         }
       ]
