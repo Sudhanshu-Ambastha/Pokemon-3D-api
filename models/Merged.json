@@ -6480,32 +6480,32 @@
         },
         {
           "name": "Deoxys Attack Form",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiform/386.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiform/386-1.glb",
           "formName": "multiform"
         },
         {
-          "name": "Deoxys Attack Form",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiShinyForm/Deoxys_Attack_Form.glb",
+          "name": "Shiny Deoxys Attack Form",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiShinyForm/386-1.glb",
           "formName": "multishinyform"
         },
         {
           "name": "Deoxys Defense Form",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiform/Deoxys_Defense_Form.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiform/386-2.glb",
           "formName": "multiform"
         },
         {
-          "name": "Deoxys Defense Form",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiShinyForm/Deoxys_Defense_Form.glb",
+          "name": "Shiny Deoxys Defense Form",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiShinyForm/386-2.glb",
           "formName": "multishinyform"
         },
         {
           "name": "Deoxys Speed Form",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiform/Deoxys_Speed_Form.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiform/386-3.glb",
           "formName": "multiform"
         },
         {
           "name": "Deoxys Speed Form",
-          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiShinyForm/Deoxys_Speed_Form.glb",
+          "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/multiShinyForm/386-3.glb",
           "formName": "multishinyform"
         }
       ]
