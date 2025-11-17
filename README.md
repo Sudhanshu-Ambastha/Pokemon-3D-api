@@ -173,7 +173,7 @@ This app supports various Pokémon forms and categories. Below is a breakdown of
 | **Category**       | **Available** | **Total** | **Description**                                                                 |
 |---------------------|---------------|-----------|---------------------------------------------------------------------------------|
 | **Regular Forms**   | 961            | 1028      | Standard Pokémon forms from Generations 1 to 9 including male & female.        |
-| **Shiny Forms**     | 130           | 1028      | Alternate color variants of all standard Pokémon.                              |
+| **Shiny Forms**     | 131           | 1028      | Alternate color variants of all standard Pokémon.                              |
 | **Gigantamax**      | 10             | 32        | Special forms of select Pokémon with unique appearances in *Sword and Shield*. |
 | **Mega Evolutions** | 49             | 49        | Includes both single Mega forms and X/Y variants.                              |
 | **MegaShiny Evolutions** | 7         | 49        | Includes both single Mega forms and X/Y variants.                              |
@@ -185,7 +185,8 @@ This app supports various Pokémon forms and categories. Below is a breakdown of
 | **Unique Forms** | 4            | 4         | Ash's Greninja, Armoured Mewtwo, Eternamax Eternatus, Ultra Necrozma              |
 | **Shadow Forms** | 3 | 131 | Dark, corrupted versions of Pokémon often seen in Pokémon Colosseum and XD: Gale of Darkness.         |
 | **Fusion Forms** | 6 | 6 | Kyurem (black/white), Necrozma (Dusk Mane/Dawn Wings), Calyrex (Ice Rider/Shadow Rider)           |
-| **Origin Forms** | 3 | 3 | Origin Forms represent the true or primal state of certain legendary Pokémon, showcasing their full power and unique design. i.e  Giratina, and Dialga/Palkia.          |
+| **Origin Forms** | 3 | 3 | Origin Forms represent the true or primal state of certain legendary Pokémon, showcasing their full power and unique design. i.e  Giratina, and Dialga/Palkia. |
+| **Multi Forms** | 23 | 200 | Non-standard, non-shiny forms of a single Pokémon (e.g., Unown B-Z, Deoxys Attack/Defense/Speed, all Rotom/Alcremie forms, Zygarde 10%/Complete). |
 ---
 
 ## Note About APIs
