@@ -186,7 +186,7 @@ This app supports various Pokémon forms and categories. Below is a breakdown of
 | **Shadow Forms** | 3 | 131 | Dark, corrupted versions of Pokémon often seen in Pokémon Colosseum and XD: Gale of Darkness.         |
 | **Fusion Forms** | 6 | 6 | Kyurem (black/white), Necrozma (Dusk Mane/Dawn Wings), Calyrex (Ice Rider/Shadow Rider)           |
 | **Origin Forms** | 3 | 3 | Origin Forms represent the true or primal state of certain legendary Pokémon, showcasing their full power and unique design. i.e  Giratina, and Dialga/Palkia. |
-| **Multi Forms** | 23 | 200 | Non-standard, non-shiny forms of a single Pokémon (e.g., Unown B-Z, Deoxys Attack/Defense/Speed, all Rotom/Alcremie forms, Zygarde 10%/Complete). |
+| **Multi Forms** | 24 | 200 | Non-standard, non-shiny forms of a single Pokémon (e.g., Unown B-Z, Deoxys Attack/Defense/Speed, all Rotom/Alcremie forms, Zygarde 10%/Complete). |
 ---
 
 ## Note About APIs
