@@ -54,7 +54,7 @@
           "formName": "megaShiny"
         },
         {
-          "name": "Venusaur",
+          "name": "G-Max Venusaur",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/3.glb",
           "formName": "gmax"
         }
@@ -124,7 +124,7 @@
           "formName": "sxy"
         },
         {
-          "name": "Gmax Charizard",
+          "name": "G-Max Charizard",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/6.glb",
           "formName": "gmax"
         }
@@ -184,7 +184,7 @@
           "formName": "sxy"
         },
         {
-          "name": "Gmax Blastoise",
+          "name": "G-Max Blastoise",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/9.glb",
           "formName": "gmax"
         }
@@ -229,7 +229,7 @@
           "formName": "regular"
         },
         {
-          "name": "Butterfree",
+          "name": "G-Max Butterfree",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/12.glb",
           "formName": "gmax"
         },
@@ -459,7 +459,7 @@
           "formName": "regular"
         },
         {
-          "name": "Pikachu",
+          "name": "G-Max Pikachu",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/25.glb",
           "formName": "gmax"
         },
@@ -904,7 +904,7 @@
           "formName": "regular"
         },
         {
-          "name": "Meowth",
+          "name": "G-Max Meowth",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/52.glb",
           "formName": "gmax"
         },
@@ -1189,7 +1189,7 @@
           "formName": "regular"
         },
         {
-          "name": "Machamp",
+          "name": "G-Max Machamp",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/68.glb",
           "formName": "gmax"
         },
@@ -1659,7 +1659,7 @@
           "formName": "megaShiny"
         },
         {
-          "name": "Gmax Gengar",
+          "name": "G-Max Gengar",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/94.glb",
           "formName": "gmax"
         }
@@ -1734,7 +1734,7 @@
           "formName": "regular"
         },
         {
-          "name": "Kingler",
+          "name": "G-Max Kingler",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/99.glb",
           "formName": "gmax"
         },
@@ -2294,7 +2294,7 @@
           "formName": "regular"
         },
         {
-          "name": "Lapras",
+          "name": "G-Max Lapras",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/131.glb",
           "formName": "gmax"
         },
@@ -2329,7 +2329,7 @@
           "formName": "regular"
         },
         {
-          "name": "Eevee",
+          "name": "G-Max Eevee",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/133.glb",
           "formName": "gmax"
         },
@@ -2494,7 +2494,7 @@
           "formName": "regular"
         },
         {
-          "name": "Snorlax",
+          "name": "G-Max Snorlax",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/143.glb",
           "formName": "gmax"
         },
@@ -9379,7 +9379,7 @@
           "formName": "regular"
         },
         {
-          "name": "Garbodor",
+          "name": "G-Max Garbodor",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/569.glb",
           "formName": "gmax"
         },
@@ -13139,7 +13139,7 @@
           "formName": "regular"
         },
         {
-          "name": "Melmetal",
+          "name": "G-Max Melmetal",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/809.glb",
           "formName": "gmax"
         },
@@ -13189,7 +13189,7 @@
           "formName": "regular"
         },
         {
-          "name": "Rillaboom",
+          "name": "G-Max Rillaboom",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/812.glb",
           "formName": "gmax"
         },
@@ -13239,7 +13239,7 @@
           "formName": "regular"
         },
         {
-          "name": "Cinderace",
+          "name": "G-Max Cinderace",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/815.glb",
           "formName": "gmax"
         },
@@ -13289,7 +13289,7 @@
           "formName": "regular"
         },
         {
-          "name": "Inteleon",
+          "name": "G-Max Inteleon",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/818.glb",
           "formName": "gmax"
         },
@@ -13369,7 +13369,7 @@
           "formName": "regular"
         },
         {
-          "name": "Corviknight",
+          "name": "G-Max Corviknight",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/823.glb",
           "formName": "gmax"
         },
@@ -13419,7 +13419,7 @@
           "formName": "regular"
         },
         {
-          "name": "Orbeetle",
+          "name": "G-Max Orbeetle",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/826.glb",
           "formName": "gmax"
         },
@@ -13544,7 +13544,7 @@
           "formName": "regular"
         },
         {
-          "name": "Drednaw",
+          "name": "G-Max Drednaw",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/834.glb",
           "formName": "gmax"
         },
@@ -13624,7 +13624,7 @@
           "formName": "regular"
         },
         {
-          "name": "Coalossal",
+          "name": "G-Max Coalossal",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/839.glb",
           "formName": "gmax"
         },
@@ -13659,7 +13659,7 @@
           "formName": "regular"
         },
         {
-          "name": "Flapple",
+          "name": "G-Max Flapple",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/841.glb",
           "formName": "gmax"
         },
@@ -13679,7 +13679,7 @@
           "formName": "regular"
         },
         {
-          "name": "Appletun",
+          "name": "G-Max Appletun",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/842.glb",
           "formName": "gmax"
         },
@@ -13714,7 +13714,7 @@
           "formName": "regular"
         },
         {
-          "name": "Sandaconda",
+          "name": "G-Max Sandaconda",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/844.glb",
           "formName": "gmax"
         },
@@ -13794,7 +13794,7 @@
           "formName": "regular"
         },
         {
-          "name": "Toxtricity",
+          "name": "G-Max Toxtricity",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/849.glb",
           "formName": "gmax"
         },
@@ -13829,7 +13829,7 @@
           "formName": "regular"
         },
         {
-          "name": "Centiskorch",
+          "name": "G-Max Centiskorch",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/851.glb",
           "formName": "gmax"
         },
@@ -13939,7 +13939,7 @@
           "formName": "regular"
         },
         {
-          "name": "Hatterene",
+          "name": "G-Max Hatterene",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/858.glb",
           "formName": "gmax"
         },
@@ -13989,7 +13989,7 @@
           "formName": "regular"
         },
         {
-          "name": "Grimmsnarl",
+          "name": "G-Max Grimmsnarl",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/861.glb",
           "formName": "gmax"
         },
@@ -14129,7 +14129,7 @@
           "formName": "regular"
         },
         {
-          "name": "Alcremie",
+          "name": "G-Max Alcremie",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/869.glb",
           "formName": "gmax"
         },
@@ -14154,7 +14154,7 @@
           "formName": "shiny"
         },
         {
-          "name": "Gmax Falinks",
+          "name": "G-Max Falinks",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/870.glb",
           "formName": "gmax"
         }
@@ -14299,7 +14299,7 @@
           "formName": "regular"
         },
         {
-          "name": "Copperajah",
+          "name": "G-Max Copperajah",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/879.glb",
           "formName": "gmax"
         },
@@ -14379,7 +14379,7 @@
           "formName": "regular"
         },
         {
-          "name": "Duraludon",
+          "name": "G-Max Duraludon",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/884.glb",
           "formName": "gmax"
         },
@@ -14509,12 +14509,12 @@
           "formName": "regular"
         },
         {
-          "name": "Urshifu",
+          "name": "G-Max Urshifu",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/892.glb",
           "formName": "gmax"
         },
         {
-          "name": "Urshifu",
+          "name": "G-Max Urshifu",
           "model": "https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/opt/gmax/892.glb",
           "formName": "gmax"
         },
